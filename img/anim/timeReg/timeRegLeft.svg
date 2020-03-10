@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250.17" height="322.11" viewBox="0 0 250.17 322.11">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f93549" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f93549" stop-opacity="0.235"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f93549" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f93549" stop-opacity="0.345"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_138" data-name="Group 138" transform="translate(-1015 -504.115)">
+    <path id="Path_296" data-name="Path 296" d="M-16546.609,8653.327l36.623,52.819,46.719,19.677,45.572-19.677,30.244-52.819Z" transform="translate(17652.621 -8059.489)" fill="url(#linear-gradient)"/>
+    <g id="Group_137" data-name="Group 137">
+      <g id="куб_2" data-name="куб 2" transform="translate(1015 693.283)" opacity="0.84">
+        <path id="Path_290" data-name="Path 290" d="M67.254,123.669,0,96.872V17.34L67.254,44.122Z" transform="translate(0 9.273)" fill="#f93549"/>
+        <path id="Path_291" data-name="Path 291" d="M43.82,123.669l67.269-26.8V17.34L43.82,44.122Z" transform="translate(23.434 9.273)" fill="#e72f4b"/>
+        <path id="Path_292" data-name="Path 292" d="M134.523,26.613,67.254,53.226,0,26.613,67.254,0Z" fill="#ee4c65"/>
+      </g>
+      <g id="куб_2-2" data-name="куб 2" transform="translate(1127.826 620.857)" opacity="0.84">
+        <path id="Path_290-2" data-name="Path 290" d="M62.915,116.809,0,91.741V17.34L62.915,42.394Z" transform="translate(0 7.556)" fill="#f93549"/>
+        <path id="Path_291-2" data-name="Path 291" d="M43.82,116.809l62.929-25.068V17.34L43.82,42.394Z" transform="translate(19.095 7.556)" fill="#e72f4b"/>
+        <path id="Path_292-2" data-name="Path 292" d="M125.844,24.9l-62.929,24.9L0,24.9,62.915,0Z" fill="#ee4c65"/>
+      </g>
+      <path id="Path_297" data-name="Path 297" d="M-16515,8582.937v142.541l46.725,19.679,45.566-19.679V8582.937Z" transform="translate(17657.641 -8078.821)" fill="url(#linear-gradient-2)"/>
+      <text id="_" data-name="®" transform="translate(1158 602)" fill="#f93549" font-size="80" font-family="FuturaPT-Bold, Futura PT" font-weight="700"><tspan x="0" y="0">®</tspan></text>
+    </g>
+  </g>
+</svg>

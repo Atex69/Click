@@ -1,0 +1,1521 @@
+
+
+
+@media (min-width: 801px) and (max-width: 1200px) {
+
+    #timeRegAnim2,#timeRegAnim3,#timeRegLeft,#timeRegLeft2,#timeRegRight,#timeRegRight2,#timeRegTop,#timeCircle1,#timeCircle2,#timeCircle3,#dangerAnim,#dangerAnim2{
+        display: none;
+
+    }
+
+    .dangerRegContentRightChoise,.timeRegContentLeftChoise {
+        margin-top: 5%;
+    }
+
+    .fastClickTittle{
+        text-align: -webkit-center;
+    }
+
+    .pricerContentCards-content{
+        margin-left: 0%;
+    }
+    .fastClick,.workClick{
+        display: none;
+    }
+
+    .fastClickMobile{
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .fastClickContent{
+        zoom: 60%;
+    }
+    .mapContentZayavkas,.workClickMobiles{
+        display: block;
+    }
+
+    .mapContentFooters{
+        display: flex;
+    }
+
+    .mapContentFooter,.mapContentZayavka{
+        display: none;
+    }
+
+    .menu-header-button-container{
+        width: 190%;
+    }
+
+    .workButton{
+        margin-top: 0px;
+    }
+
+    .indReg {
+
+        margin-bottom: 23%;
+    }
+
+
+    .completDocsContentChoiseDescUp{
+        margin-right: 0%;
+    }
+
+    .menu-header-button{
+        margin-right:0%;
+        min-width: 220px;
+        margin-left: 5%;
+    }
+
+    .mobile-menu__menu-header-text{
+        text-align-last:center;
+        margin-right: 0%;
+    }
+
+    .menu-header{
+        display: flex!important;
+    }
+    .completDocsContentChoiseDescUp{
+        margin-top: 1%;
+    }
+    .completDocsContentChoiseDescDown{
+        margin-top: 1%;
+    }
+
+
+    .mapContent {
+        margin-left: 4%;
+        width: 81%;
+        position: relative;
+        padding: 10px 1px 10px 53px;
+        height: 100%;
+        margin-bottom: 25px;
+    }
+
+.fastButtonMobile{
+grid-area: 5 / 1 / 6 / 3;
+}
+
+
+
+.addressMoscow{
+    margin-top: 30px;
+}
+
+.mapContentInfoNumber{
+    margin-left: 0px;
+}
+
+.mapContentTittle {
+    margin-left: 0px;
+    text-align-last: center;
+}
+.mapContentInfoAddress{
+    margin-left: 0px;
+}
+
+.mapContentInfo {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+
+.mapContentInfoAddress, .mapContentInfoNumber {
+    margin-bottom: 15px;
+}
+
+.mapContentZayavka {
+    margin-bottom: 90px;
+    margin-right: 6%;
+}
+
+.mapContentFooter {
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+.socContentLeftTittle{
+    width: 100%;
+}
+
+.socContentRight{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.socContentRight{
+    padding-bottom: 35px;
+}
+
+.socContentRightIcon{
+    align-self: center;
+    margin-left: 0px;
+}
+
+.circle {
+    display: block;
+}
+.pricerContentGrid{
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.menu-container, .menu-header-wrap {
+    display: none;
+}
+.main-grid,.main-gridQuestion ,.main-gridPrice,.main-gridZayavka,.main-gridSoc  {
+    display: grid;
+    grid-template-columns: 1fr 13fr 1fr;
+    grid-template-rows: 1fr;
+}
+.card1{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card2{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.card3{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.card4{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.pricerContentTittle,.pricerContentTittleDesc{
+    display: flex;
+    margin-left: 5%;
+}
+.pricerContentCards{
+    grid-column-gap: 150px;
+}
+
+.sendNumber{
+display: flex;
+justify-content: center;
+}
+.zayavkaContentFooter{
+    margin-bottom: 15px;
+}
+.freeCallContentGrid{
+display: flex;
+flex-direction: column;
+}
+.freeCallContentRightDesc{
+margin-left: 30px;
+margin-bottom: 15px;
+}
+.sendButZayavka {
+    width: 44%;
+}
+
+.socContentGrid{
+    display: flex;
+    flex-direction: column;
+}
+.pricerContentCards{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-left: 0px;
+}
+.peopleResultContent-container {
+    grid-area: 1 / 2 / 3 / 2;
+    align-items: center;
+}
+.numberZayavka {
+    width: 60%;
+}
+.peopleResultContentGrid, .pricerContentTittleDesc {
+    display: block;
+    margin-bottom: 25px;
+}
+.peopleContentCards-container {
+    width: 600px;
+    overflow: hidden;
+}
+.peopleContentCards {
+    grid-area: 2 / 2 / 2 / 4;
+    display: flex;
+    flex-direction: row;
+}
+.cardFlex {
+    min-width: 234px;
+    margin-right: 15px;
+}
+
+.allCompanyContentGrid{
+    height: 56%;
+    grid-row-gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+}
+.teamClickPeopleDesc {
+    padding: 1% 6% 0% 6%;
+}
+.teamClickPeopleDescDown {
+    padding: 1% 6% 0% 6%;
+}
+
+.teamClickPeopleImg{
+    zoom: 73%;
+}
+
+.freeCallContentLeft{
+    align-self: center;
+    width: 55%;
+    text-align-last: center;
+}
+
+.teamClickContentRight {
+    padding: 28px 0px 0px 45px;
+}
+.teamClickContentRightDesc {
+    width: 125%;
+}
+.teamClickContentGrid{
+    width: 100%;
+    height: 58%;
+    padding-bottom: 15px;
+}
+.checkBut {
+    width: 100%;
+}
+.checkButton {
+    margin-top: 20px;
+}
+
+.mobile-menu {
+    display: block;
+    position: absolute;
+    right: 27px;
+    top: 40px;
+}
+
+.freeCallContentGrid,.freeCallContentRight{
+    margin-left: 0px;
+}
+
+.menu-container-right-container-1 {
+
+    height: 29px;
+}
+
+.menu-header-contentRight {
+    margin-right: 143px;
+}
+
+.reg-tittle-content {
+    margin-top: 0px;
+}
+
+.sendButMobile {
+    display: unset;
+    height: 63px;
+    width: 16%;
+    border-radius: 30px;
+    background-color: #F93549;
+    border-color: #F93549;
+    margin-left: 20px;
+    padding: 10px 10px 26px 11px;
+}
+
+.sendButFirst {
+    display: none;
+}
+
+.startPageFooterContentRight {
+    width: 100%;
+    height: 182px;
+    padding: 0px 0px 0px 0px;
+}
+
+.startPageFooterContentLeft {
+    padding: 20px 7px 0px 7px;
+}
+
+.guardBrendContentGrid, .startPageFooterContentGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.guardBrendContentRight {
+    margin-left: 0px;
+    padding: 22px 0px 18px 0px;
+    width: 80%;
+    height: 100%;
+    margin-top: 9%;
+    align-self: center;
+}
+
+.countContent {
+    width: 100%;
+    padding: 1px 129px 0px 0px;
+    height: 100%;
+}
+.guardBrendContentLeft,.timeRegContentLeftTittle{
+    width: 100%;
+}
+
+.count {
+    background: url(img/count.svg) no-repeat 60% -15%;
+    padding: 9px 14px 10px 129px;
+}
+.countOne {
+    background: url(img/count.svg) no-repeat 60% -15%;
+    padding: 9px 0px 10px 91px;
+}
+
+.cubeCenterUp, .cubeRightUp,.fastButton, .cubeLeftUp, .cubesLeftUp, .cubesLeftDown, .cubesRightUp, .cubesRightDown, .cubeCenterDown, .cubeRightCenterDown, .cubeRightDownDown, #anim1Right, #anim2Right, #anim3Right,.freeCallCubsLeft,.freeCallCubsRight,.peopleCubLeft,.peopleCubCenter,.peopleCubRight,.questCubLeft,.questCubRight,.zayavkaCubLeft,.zayavkaCubRight {
+    display: none;
+}
+
+.fastButtonMobile{
+    display: block;
+}
+
+.checkPatentContentGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkPatentContentLeftDesc {
+    width: 100%;
+}
+
+.checkPatentContentRight {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 12% ;
+}
+
+.checkPatentBut {
+    width: 250px;
+}
+
+.checkPatentContentRightTittle {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 0px;
+}
+
+.checkPatentContentRight {
+    padding: 10px 0px 10px 22px;
+}
+
+.linkMk {
+    margin-left: 0%;
+    margin-bottom: 3%;
+}
+
+.timeRegContentGrid {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.timeRegContentRight {
+    background: url(img/groups.png) no-repeat;
+    width: 100%;
+    height: 685px;
+    zoom: 67%;
+    background-position: 50% 50%;
+    margin-bottom: -22%;
+
+}
+
+.checkPatentMK{
+    margin-top: 3%;
+}
+.timeRegButton{
+    margin-bottom: 20px;
+}
+.dangerRegContentGrid{
+    display: flex;
+    flex-direction: column;
+}
+.dangerRegContentLeft{
+    background: url(img/pyramida.png) no-repeat 50%;
+    width: 100%;
+    height: 750px;
+    zoom: 67%
+}
+.sendNumber{
+    width: 100%;
+}
+.tittle{
+    font-size: 40px;
+}
+.startPageFooterContentLeftTittle,.workClickContentTittle,.pricerContentTittle,.peopleResultTittle,.questionContentTittle,.allCompanyContentTittle,.completDocsContentLeftTittle,.checkPatentContentLeftTittle,.startPageFooterContentLeftTittle,.timeRegContentLeftTittle,.timeRegContentLeftTittle,.dangerRegContentRightTittle,.dangerRegContentRightTittle{
+    font-size: 24px;
+}
+
+.freeCallContentLeftTittle{
+    font-size: 22px;
+}
+.dangerRegContentRight{
+    margin-left: 0px;
+}
+
+.completDocsContentGrid{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.completDocsContentRight {
+background-position: 0px;
+    width: 100%;
+    height: 600px;
+    zoom: 80%;
+    display: none;
+}
+.complButton{
+    text-align-last: center;
+}
+
+.indRegContents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.indRegContent3 {
+    grid-area: 2 / 1 / 2 / 4;
+    margin-bottom: 40px;
+}
+
+.indRegContent4 {
+    grid-area: 2 / 2 / 3 / 2;
+}
+.indRegContent5 {
+    grid-area: 3 / 1 / 3 / 3;
+}
+.indRegContent6 {
+    grid-area: 3 / 2 / 3 / 4;
+}
+.indRegContentTittleDesc{
+    width: 143%;
+}
+.indRegContentTittle{
+    width: 134%;
+}
+.workClick{
+    margin-top: 25%;
+}
+.circleUp{
+    display: none;
+}
+    .workClickContentImg{
+        zoom:60% ;
+    }
+    .mapContentZayavkas{
+        padding-top: 20px;
+        text-align-last: center;
+    }
+
+    .mapContentFooters{
+        margin-bottom: 20px;
+    }
+    .mapContentFooters{
+        margin-left: 60px;
+    }
+
+    .startPageFooterContentGrid{
+        padding-left: 20px;
+    }
+    #submit1 {
+        display: none;
+    }
+    .modal {
+        border-radius: 15px;
+        width: 57%;
+        display: block;
+        margin: 30% 0 0 -250px;
+        position: relative;
+        top: 50%;
+        left: 46%;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        background: #0070D0;
+    }
+
+    .cubFormLeft,.cubFormRight{
+        display: none;
+    }
+
+    .mapContentZayavkasTittle{
+        margin-left: 0%;
+        margin-right: 18%;
+    }
+    .sendNumberMaps{
+        text-align: left;
+        margin-right: 16px;
+        padding: 10px 1px 10px 53px;
+        margin-left: 15px;
+    }
+
+    .numberWriteMap{
+        text-align-last: left;
+    }
+.reg-tittle-anim{
+    display: none;
+}
+}
+
+
+
+@media (max-width: 800px) and (min-width: 600px){
+.menu-header-contentRight {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 68%;
+}
+
+}
+@media (max-width: 600px) and (min-width: 250px){
+.menu-header-contentRight {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 67%;
+}
+}
+
+
+@media (min-width: 250px) and (max-width: 799px) {
+
+    .mobile-menu__menu-header-text  li{
+        font-weight: 400;
+    }
+.dangerRegContentLeft,.timeRegContentRight{
+    display: none;
+}
+    .menu-header{
+        margin-left: -2px;
+    }
+
+
+    .menu-container-right-container-lang {
+        width: 54%;
+        margin-right: 0%;
+    }
+
+    .menu-btn {
+        width: 64px;
+    }
+.fastClickMobile{
+    width: 95.5%;
+}
+    .pricerContentGrid{
+        padding-bottom: 0px;
+    }
+
+    .numberWriteMap{
+        text-align-last: left;
+    }
+
+    .pricerContentCards-content{
+        margin-left: 0%;
+    }
+
+    .cubFormLeft,.cubFormRight{
+        display: none;
+    }
+
+    .modal {
+        border-radius: 15px;
+        width: 72%;
+        display: block;
+        margin: 30% 0 0 -250px;
+        position: relative;
+        top: 50%;
+        left: 58%;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        background: #0070D0;
+    }
+
+    .startPageFooterContentGrid{
+        padding-left: 20px;
+    }
+
+    .mapContentFooters{
+        margin-left: 60px;
+    }
+
+    .mapContentZayavkas{
+        padding-top: 20px;
+        text-align-last: center;
+    }
+
+    .mapContentFooters{
+        margin-bottom: 20px;
+    }
+
+.circleUp{
+    display: block;
+}
+
+
+.mapContentZayavkas{
+    display: block;
+}
+
+    .mapContentFooters{
+        display: flex;
+    }
+
+.mapContentFooter,.mapContentZayavka{
+    display: none;
+}
+
+.mapContentZayavkasTittle{
+    text-align: center;
+}
+.sendNumberMaps{
+    text-align: -webkit-center;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.circle{
+    display: block;
+}
+
+.tittle {
+    font-size: 30px !important;
+    width: 75%;
+}
+
+.description {
+    font-size: 20px;
+    width: 70%;
+}
+
+.numberWrite {
+    width: 67%;
+}
+
+.mobile-menu {
+    display: block;
+    position: absolute;
+    right: 27px;
+    top: 40px;
+}
+.sendButMobile {
+    display: unset;
+    height: 63px;
+    width: 16%;
+    border-radius: 30px;
+    background-color: #F93549;
+    border-color: #F93549;
+    margin-left: 20px;
+    padding: 10px 10px 26px 11px;
+}
+    #submit1 {
+    display: none;
+}
+
+.sendBut {
+    height: 70px;
+    margin-top: 20px;
+}
+
+.freeCallContentRight{
+    margin-left: 0px;
+    text-align: -webkit-center;
+    margin-right: 7%;
+}
+
+.sendNumber {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.checkButton {
+    margin-top: 30px;
+}
+
+.checkBut {
+    width: 100%;
+}
+
+.checkDesc {
+    margin-top: 20px;
+}
+
+
+
+.startPageFooterContentLeft {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    margin-top: 39px;
+}
+
+.startPageFooterContentGrid {
+    grid-area: 1 / 2 / 2 / 3;
+
+    width: 100%;
+    background: #398FD9;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.startPageFooterContentLeftTittle {
+    font-size: 22px;
+    color: white;
+    font-family: "Futura PT";
+    font-weight: 700;
+    width: 100%;
+    align-self: center;
+    text-align-last: center;
+}
+
+.peopleResultTittle{
+    margin-right: 0%;
+    margin-bottom: 30px;
+}
+
+.questionContentTittle{
+    width: 105%;
+}
+.startPageFooterContentLeftDesc {
+    width: 76%;
+    align-self: center;
+    font-size: 20px;
+}
+
+.startPageFooterContentLeftRequest {
+
+    font-size: 18px;
+    width: 60%;
+    align-self: center;
+    text-align: -webkit-center;
+
+}
+.reg-tittle-anim ,.fastButton{
+    display: none;
+}
+.reg-tittle-content{
+    width: 228%;
+    margin-top: 0px;
+}
+
+
+.priceContentDown{
+    margin-left: 0px;
+    background: #F7F7F7;
+    margin-top: 22px;
+}
+.fastButtonMobile{
+    display: block;
+}
+
+    .fastButMobile {
+        width: 300px;
+    }
+
+.startPageFooterContentRight {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 41px;
+    flex-wrap: wrap;
+    padding: 0px 0px 10% 6%;
+}
+.completDocsContentRight {
+    background: url(img/clickImg.jpg) no-repeat;
+zoom: 70%;
+    width: 103%;
+    height: 700px;
+    display: none;
+}
+
+.startFooterLogoKia, .startFooterLogoRostelecom, .startFooterLogoOwox, .startFooterLogoWest, .startFooterLogoAvito, .startFooterLogoNvidia, .startFooterLogoGenius, .startFooterLogoHp {
+    height: 57px;
+    width: 128px;
+}
+
+
+
+.guardBrendContentGrid {
+    grid-area: 1 / 2 / 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.guardBrendContentLeft {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.checkPatentLogoClick{
+    margin-right: 0px;
+}
+.guardBrendContentLeftTittle{
+    font-size: 22px;
+    margin-top:27px;
+}
+.guardBrendContentTittle, .guardBrendContentDesc{
+    font-size: 18px;
+}
+.guardBrendContentDesc{
+margin-bottom:20px;
+}
+
+.guardBrendContentRight {
+    margin-left: 0;
+    width: 100%;
+    padding: 0!important;
+    margin-top: 8%;
+}
+
+.count {
+    background: url(img/count.svg) no-repeat 79% 20%;
+    font-family: "Futura PT", serif;
+    font-weight: 200;
+    font-size: 41px;
+    color: #0070D0;
+    padding: 31px 35px 10px 130px;
+}
+
+.countOne {
+    background: url(img/count.svg) no-repeat 79% 20%;
+    font-family: "Futura PT", serif;
+    font-weight: 200;
+    font-size: 41px;
+    color: #0070D0;
+    padding: 31px 35px 10px 100px;
+}
+
+.checkPatentContentGrid {
+
+    display: flex;
+    flex-direction: column;
+}
+
+    .cubeCenterUp, .cubeRightUp,.fastButton, .cubeLeftUp, .cubesLeftUp, .cubesLeftDown, .cubesRightUp, .cubesRightDown, .cubeCenterDown, .cubeRightCenterDown, .cubeRightDownDown, #anim1Right, #anim2Right, #anim3Right,.freeCallCubsLeft,.freeCallCubsRight,.peopleCubLeft,.peopleCubCenter,.peopleCubRight,.questCubLeft,.questCubRight,.zayavkaCubLeft,.zayavkaCubRight {
+        display: none;
+    }
+
+.checkPatentBut {
+    width: 80%;
+    height: 50px;
+    margin-top: 10%;
+    justify-self: center;
+}
+
+.timeRegButton{
+    margin-bottom: 40px;
+}
+
+.checkPatentContentLeftDesc{
+    width: 100%;
+    font-size: 20px;
+}
+
+.checkPatentContentRight{
+    margin-left: 0;
+    height: 240px;
+    width: 100%;
+}
+
+.checkPatentContentRightTittle {
+    font-family: "Futura PT";
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 7%;
+    margin-bottom: 6%;
+}
+
+
+.checkPatentContentRightMK,.checkPatentContentRightClassMK  {
+    font-family: "Futura PT";
+    font-weight: 300;
+    font-size: 20px;
+}
+.timeRegContentGrid{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap-reverse;
+}
+.fastClickLeftLine,.fastClickRightLine,.fastClickMainLine{
+    display: none;
+}
+.timeRegContentLeftTittle {
+    font-family: "Futura PT";
+    font-weight: 600;
+    font-size: 22px;
+    width: 100%;
+}
+.timeRegContentLeftChoiseTittle,.dangerRegContentrightChoiseTittle {
+    font-family: "Futura PT";
+    font-weight: 600;
+    font-size: 20px;
+}
+.timeRegContentLeftChoiseDesc,.dangerRegContentRightChoiseDesc {
+    font-family: "Futura PT";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.countContent {
+    font-size: 20px;
+    width: 91%;
+    padding-right: 77px;
+    height: 100%;
+}
+
+.regBut {
+    width: 75%;
+}
+
+.checkPatentContentLeftTittle{
+    font-size: 22px;
+}
+
+.dangerRegContentRightTittle {
+    font-family: "Futura PT";
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.dangerRegContentRight {
+    margin-left: 5%;
+}
+
+.dangerRegContentGrid {
+display: flex;
+flex-direction: column;
+}
+
+
+.dangerRegContentRightFoot{
+    font-size: 24px;
+    margin-left: 14%;
+}
+
+.dangerButton{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dangerBut {
+    width: 60%;
+
+    height: 50px;
+
+}
+.indRegContentTittle{
+    width: 186%;
+}
+.fastClickTittle,.completDocsContentLeftTittle,.indRegContentTittle{
+font-size: 22px;
+}
+.fastClickTittle{
+justify-self: left;
+background: #ffff;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+    padding: 41px 89px 50px 38px;
+    text-align: center;
+    background: #FFFFFF;
+    width: 69%;
+}
+.indRegContentTittleDesc{
+width: 178%;
+}
+.fastDesc {
+    margin-bottom: 40px;
+}
+
+.fastDescMini{
+font-size: 16px;
+}
+.fastDescOne,.fastClick2Desc,.indRegContentText,.indRegContentTittleDesc ,.fastClick3Desc,.fastClick4Desc,.fastClick5Desc,.fastClick6Desc,.fastClick7Desc,.fastClick8Desc,.completDocsContentChoiseTittle,.completDocsContentChoiseDesc{
+font-size: 20px;
+}
+
+
+
+#indText1{
+    margin-left: 5px!important;
+}
+    #indText5{
+        margin-left:15px!important;
+    }
+
+.fastClickContent {
+         display: flex;
+    flex-direction: column;
+    background: #ffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 17px 20px 62px;
+}
+.fastClick1Img{
+    background: url(img/fast1.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick2Img{
+    background: url(img/fast2.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick3Img{
+    background: url(img/fast3.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick4Img{
+    background: url(img/fast4.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick5Img{
+    background: url(img/fast5.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick6Img{
+    background: url(img/fast6.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastClick7Img{
+    background: url(img/fast7.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+
+.fastClick8Img{
+    background: url(img/fast8.png) no-repeat center;
+    width: 118px;
+    height: 116px;
+
+}
+.fastImg{
+
+    width: 268px;
+}
+
+.fastButton{
+    margin-top: 7%;
+}
+
+.indReg{
+    height: 100%;
+}
+
+.completDocsContentGrid{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.completDocsContentChoiseDesc{
+    line-height: 36px;
+}
+.completDocsContentChoiseDesc li{
+    font-size: 20px;
+}
+
+.teamClick{
+    display: flex;
+    flex-direction: column;
+}
+.completDocsContentLeftTittle,.indRegContentTittle,.workClickContentTittle{
+    font-size: 22px;
+}
+.completDocsContentChoiseTittle,.completDocsContentChoiseDesc,.completDocsContentChoise,.indRegContentTittleDesc ,.indRegContentText,.indRegContentDown{
+    font-size: 20px;
+}
+.complButton,.indButton{
+    text-align: -webkit-center;
+}
+
+.workClickContentFlex{
+    flex-direction: column;
+}
+
+.indButton{
+    width: 183%;
+    text-align: center;
+}
+
+.teamClickContentGrid{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.teamClickContentRight{
+    padding: 0px 26px 0px 30px;
+}
+
+.indRegContents{
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+    width: 200%;
+}
+.indRegContentDown{
+    width: 200%;
+}
+.workButton{
+    padding: 0px 0px 0px 0px;
+}
+.wrkBut{
+    margin-bottom: 25px;
+}
+
+.teamClickPeopleImg{
+    zoom: 40%;
+}
+
+.indRegContent1{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.teamClickPeople{
+    margin-top: 45px;
+}
+.indRegContent2{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.indRegContent3{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.indRegContent4{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.indRegContent5{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.indRegContent6{
+display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.workClick1Img {
+    background: url(img/workClick1Short.png) no-repeat;
+    width: 58px;
+    height: 59px;
+    align-self: center;
+}
+
+.workClick2Img {
+    background: url(img/workClick2Short.png) no-repeat;
+    width: 58px;
+    height: 62px;
+    align-self: center;
+}
+
+.workClick3Img {
+    background: url(img/workClick3Short.png) no-repeat;
+    width: 58px;
+    height: 62px;
+    align-self: center;
+}
+
+.workClick4Img {
+    background: url(img/workClick4Short.png) no-repeat;
+    width: 58px;
+    height: 59px;
+    align-self: center;
+}
+
+.workDesc{
+    width: 100%;
+    margin-bottom: 35px;
+}
+. {
+    background: url(img/logo.png) no-repeat;
+    width: 182px;
+    height: 95px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-container,.menu-header-wrap,.menu-container-right-container-1,.menu-header-button-container{
+    display: none;
+}
+
+.menu-header-button{
+    margin-left: 7%;
+    margin-right: 0px;
+    min-width: 357px;
+    border-radius: 25px;
+}
+
+.teamClickPeopleDesc{
+    padding: 1% 17% 0% 17%;
+    text-align: center;
+}
+.teamClickPeopleDescDown{
+    padding: 0% 17% 0% 17%;
+}
+.pricerContentTittleDesc{
+    width: 94%;
+    margin-left: 9%;
+    margin-bottom: 15px;
+}
+
+.pricerContentCards {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 1275px;
+}
+.pricerContentCardPrice{
+    margin-top: 160%;
+}
+.pricerContentCardDesc {
+
+   height: 0px;
+}
+.pricerContentCards-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 276px;
+    background: white;
+    border-radius: 15px;
+    align-self: center;
+}
+    .priceContentDown{
+        margin-right: 0%!important;
+    }
+.pricerContentCard{
+    margin-top: 24px;
+}
+.freeCallContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.freeCallContentGrid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.freeCallContentLeftTittle{
+    width: 88%;
+}
+
+.allCompanyContentGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow3,.yellow6{
+    margin-left: 0px;
+}
+.shortBut {
+    width: 213px !important;
+    margin-left: 0px;
+}
+
+.freeCallContentRightDesc{
+    text-align: left;
+}
+
+.allCompanyContentTittle{
+    margin-top: 37px;
+    margin-bottom: 40px;
+}
+
+.main-gridQuestion{
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.mapContentTittle{
+    margin-left: 0px;
+}
+
+.main-gridZayavka{
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows: 1fr;
+}
+.zayavkaContentGrid{
+    padding: 0px 25px 11px 25px;
+}
+.socContentGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.socContentLeftTittle{
+    text-align: -webkit-center;
+}
+
+.socContentRightDesc {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 11px 15px 20px;
+}
+.socContentRightIcon{
+    justify-content: space-around;
+    margin-left: 0px;
+    padding: 10px 13px;
+}
+
+.socContentRightMailContent{
+    margin-bottom: 15px;
+}
+.socContentRight{
+    width: 100%;
+    margin-left: 0px;
+}
+.mapContent {
+    margin-left: 9%;
+    width: 65%;
+    position: relative;
+    padding: 10px 1px 10px 53px;
+    height: 100%;
+    margin-bottom: 25px;
+}
+.mapContentInfo {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapContentInfoAddress{
+    margin-left: 0px;
+}
+
+.mapContentInfoAddress,.mapContentInfoNumber{
+    margin-bottom: 15px;
+}
+
+.mapContentZayavkaTittle{
+    text-align: -webkit-center;
+    padding: 0px 19px 0px 0px;
+}
+.numberWriteMap{
+    width: 85%;
+    margin-bottom: 15px;
+}
+.mapContentFooter{
+    width: 100%;
+    margin-left: 0px;
+}
+.card-head-text{
+    font-size: 18px;
+}
+.numberZayavka {
+    width: 90%;
+}
+.teamClickContentLeft{
+    width: 100%;
+    height: 100%;
+}
+
+.sendNumberFirst {
+    margin-top: 30px;
+    width: 100%;
+}
+.peopleContentCardImg1{
+
+    height: 125px;
+
+}
+
+.peopleContentCardImg2{
+
+    height: 28%;
+
+}
+
+.peopleImg{
+    height: 125px!important;
+}
+
+.allCompany{
+    margin-top: 0%;
+}
+
+.peopleContentCardImg3{
+
+    height: 28%;
+
+}
+.pricerContentTittle{
+    display: block;
+    margin-right: 0px;
+    width: 103%;
+}
+
+.peopleContentCardImg4{
+
+
+    height: 28%;
+
+}
+.peopleContentCardDesc{
+    height: 100%;
+}
+
+.peopleContentCards{
+    grid-area: 2 / 2 / 2 / 4;
+
+    display: flex;
+    flex-direction: row;
+}
+.peopleContentCards-container{
+    width: 300px;
+    overflow: hidden;
+}
+.sendButFirst{
+    display: none;
+}
+.peopleResultContentGrid,.pricerContentTittleDesc{
+    display: block;
+}
+.cardFlex{
+    min-width: 234px;
+}
+.peopleResultContent-container{
+    grid-area: 1 / 2 / 3 / 2;
+    align-items: center;
+}
+}
+

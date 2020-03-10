@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js"></script>
+    <script src="http://labs.rampinteractive.co.uk/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qbq0gsx.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/fav.png"/>
+    <link rel="stylesheet" type="text/css" href="media2.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=e444a4f8-07a7-443c-91fc-f70b77b990f5&load=package.standard&lang=ru-RU"
+            type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/575cccf86c.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap,
+            myPlacemark;
+
+        function init() {
+            myMap = new ymaps.Map("map", {
+                center: [59.935437, 30.311354],
+                zoom: 17
+            }, {
+                searchControlProvider: 'yandex#search'
+            });
+
+
+            myPlacemark = new ymaps.Placemark([59.935437, 30.311354], {}, {
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'img/fav.png',
+                // Размеры метки.
+                iconImageSize: [40, 40]
+
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+
+    <title>ClickPatent</title>
+</head>
+<body>
+<div class="mobile-menu">
+    <a href="#" class="menu-btn">
+        <span></span>
+    </a>
+</div>
+
+
+<div class="mobile-menu__menu-header-wrap">
+    <div class="menu-logo-container">
+        <div class="menu-logo"></div>
+    </div>
+    <ul class="mobile-menu__menu-header-text">
+        <li><a href="#anch1" class="menu-link">О компании</a></li>
+        <li><a href="#anch2" class="menu-link">Онлайн проверка ТМ</a></li>
+        <li><a href="#anch3" class="menu-link">Процесс регистрации ТМ</a></li>
+        <li><a href="#anch4" class="menu-link">Стоимость</a></li>
+        <li><a href="#anch5" class="menu-link">Контакты</a></li>
+
+    </ul>
+    <button class="menu-header-button mobile">
+        <a class="btn trigger" href="#"> Заказать звонок</a>
+    </button>
+</div>
+<div class="modal-wrapper">
+
+    <div class="modal">
+
+        <div class="modalCloseButton">
+            <div class="sharp">
+
+            </div>
+        </div>
+        <div class="modal-content">
+            <div class="good-job">
+                <h2 style="padding: 30px 0 15px;color: white;margin: 0;font-size: 26px;">Просто оставьте заявку.<br>
+                    Остальное мы сделаем за вас.</h2>
+                <form class="form_modal_window" id="mailForm" action="">
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    <input type="phone" id="phone" name="phone" placeholder="Введите свой телефон" required>
+                    <button class="form_sub" type="button" id="submit">Оставить заявку</button>
+
+                </form>
+                <div id="erconts"></div>
+            </div>
+
+        </div>
+
+        <div class="politic">Нажимая кнопку отправить вы соглашаетесь<a
+                class="triggerPol" href="#"> с политикой конфиденциальности</a></div>
+
+    </div>
+
+    <div class="cubFormLeft">
+
+    </div>
+
+    <div class="cubFormRight">
+
+    </div>
+
+    <div class="modalGood">
+        <div class="modalGood-content">
+            <div class="good-job">
+                <h2 style="padding: 0px 0px 27px 0px;color: black;margin: 0;font-size: 26px;">Спасибо, ваша заявка
+                    успешно
+                    отправлена.</h2>
+                <div class="modalGoodBut">Назад</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="modals-wrap">
+
+    <div class="modalPol">
+        <div class="modalPol-content">
+            <div class="modalPol-contentGood">
+                <div class="headPol">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ<br>
+                    Настоящая Политика конфиденциальности персональных данных (далее - Политика конфиденциальности)
+                    действует в отношении всей информации, размещенной на сайте в сети Интернет по адресу:
+                    сlickpatent.ru (далее - Сайт), которую ООО «Clickpatent», партнеры компании «Clickpatent», иные
+                    лица, могут получить о Пользователе во время использования Сайта, его сервисов, программ и
+                    продуктов.<br>
+                    Использование сервисов Сайта означает безоговорочное согласие Пользователя с настоящей Политикой и
+                    указанными в ней условиями обработки его персональной информации; в случае несогласия с этими
+                    условиями Пользователь должен воздержаться от использования сервисов.
+
+
+                </div>
+                <h3>ОБЩИЕ ПОЛОЖЕНИЯ</h3><br>
+                1.1. В рамках настоящей Политики под персональной информацией Пользователя понимаются:<br>
+                1.1.1. Персональная информация, которую Пользователь предоставляет о себе самостоятельно при регистрации
+                (создании учетной записи) или в процессе использования Сервисов, включая персональные данные
+                Пользователя. Обязательная для предоставления Сервисов информация помечена специальным образом. Иная
+                информация предоставляется Пользователем на его усмотрение.<br>
+
+                1.1.2. Данные, которые автоматически передаются сервисам Сайта в процессе их использования с помощью
+                установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, данные файлов
+                cookie, информация о браузере Пользователя (или иной программе, с помощью которой осуществляется доступ
+                к сервисам), технические характеристики оборудования и программного обеспечения, используемых
+                Пользователем, дата и время доступа к сервисам, адреса запрашиваемых страниц и иная подобная информация.<br>
+
+                1.1.3. Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности,
+                предоставляются Пользователем путём заполнения регистрационной формы на Сайте и могут включать в себя
+                следующую информацию:<br>
+
+                фамилию, имя, отчество Пользователя;<br>
+                контактный телефон Пользователя;<br>
+                адрес электронной почты (e-mail);<br>
+                место жительство Пользователя.<br>
+                1.1.4. Настоящая Политика конфиденциальности применяется только к Сайту сlickpatent.ru. Сайт
+                сlickpatent.ru не контролирует и не несет ответственности за сайты третьих лиц, на которые Пользователь
+                может перейти по ссылкам, доступным на Сайте сlickpatent.ru<br>
+
+                <h3>ЦЕЛИ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЕЙ</h3><br>
+                2.1. Сайт собирает и хранит только ту персональную информацию, которая необходима для предоставления
+                сервисов или исполнения соглашений и договоров с Пользователем, за исключением случаев, когда
+                законодательством предусмотрено обязательное хранение персональной информации в течение определенного
+                законом срока.<br>
+                2.2. Персональную информацию Пользователя Сайт обрабатывает в следующих целях:<br>
+
+                2.2.1. Идентификации Пользователя для заключения договора оказания услуг, договора купли-продажи товара
+                дистанционным способом, проведения маркетинговых мероприятий и исследований.<br>
+
+                2.2.2. Предоставления Пользователю доступа к персонализированным ресурсам Сайта.<br>
+
+                2.2.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов,
+                касающихся использования Сайта, оказания услуг, обработку запросов и заявок от Пользователя.<br>
+
+                2.2.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения
+                мошенничества.<br>
+
+                2.2.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем.<br>
+
+                2.2.6. Создания учетной записи для оказания услуг, если Пользователь дал согласие на создание учетной
+                записи.<br>
+
+                2.2.7. Уведомления Пользователя Сайта о перечне оказываемых услуг.<br>
+
+                2.2.8. Предоставления Пользователю эффективной клиентской и технической поддержки при возникновении
+                проблем, связанных с использованием Сайта.<br>
+
+                2.2.9. Осуществления рекламной деятельности с согласия Пользователя.<br>
+
+                2.2.10. Предоставления доступа Пользователю на сайты или сервисы партнеров Бэби-клуба с целью получения
+                продуктов, обновлений и услуг.<br>
+
+                <h3>УСЛОВИЯ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЕЙ И ЕЕ ПЕРЕДАЧИ ТРЕТЬИМ ЛИЦАМ</h3><br>
+                3.1. Сайт хранит персональную информацию Пользователей в соответствии с внутренними регламентами
+                конкретных сервисов.<br>
+                3.2. В отношении персональной информации Пользователя сохраняется ее конфиденциальность, кроме случаев
+                добровольного предоставления Пользователем информации о себе для общего доступа неограниченному кругу
+                лиц. При использовании отдельных сервисов Пользователь соглашается с тем, что определенная часть его
+                персональной информации становится общедоступной.<br>
+
+                3.3. Сайт вправе передать персональную информацию Пользователя третьим лицам в следующих случаях:<br>
+
+                3.3.1. Пользователь выразил согласие на такие действия.<br>
+
+                3.3.2. Передача необходима для использования Пользователем определенного сервиса либо для исполнения
+                определенного соглашения или договора с Пользователем.<br>
+
+                3.3.3. Передача осуществляется Партнеру Clickpatent в рамках заключенного Лицензионного договора или
+                Договора коммерческой концессии (франшизы) или проекта / сервиса, осуществляемого под руководством
+                компании «Clickpatent».<br>
+
+                3.3.4. Передача предусмотрена российским или иным применимым законодательством в рамках установленной
+                законодательством процедуры.<br>
+
+                3.3.5. В случае продажи Сайта к приобретателю переходят все обязательства по соблюдению условий
+                настоящей Политики применительно к полученной им персональной информации.<br>
+
+                3.4. Обработка персональных данных Пользователя осуществляется без ограничения срока любым законным
+                способом, в том числе в информационных системах персональных данных с использованием средств
+                автоматизации или без использования таких средств. Обработка персональных данных Пользователей
+                осуществляется в соответствии с Федеральным законом от 27.07.2006 N 152-ФЗ «О персональных данных».<br>
+
+                3.5. При утрате или разглашении персональных данных Администрация Сайта информирует Пользователя об
+                утрате или разглашении персональных данных.<br>
+
+                3.6. Администрация Сайта принимает необходимые организационные и технические меры для защиты
+                персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения,
+                блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц.<br>
+
+                3.7. Администрация Сайта совместно с Пользователем принимает все необходимые меры по предотвращению
+                убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных
+                Пользователя.<br>
+
+                3.8. Персональные данные Пользователя могут быть переданы уполномоченным органам государственной власти
+                Российской Федерации только по основаниям и в порядке, установленным законодательством Российской
+                Федерации.<br>
+
+                <h3>ОБЯЗАТЕЛЬСТВА СТОРОН</h3><br>
+                4.1. Пользователь обязан:<br>
+                4.1.1. Предоставить информацию о персональных данных, необходимую для пользования Сайтом.<br>
+
+                4.1.2. Обновлять, дополнять предоставленную информацию о персональных данных в случае изменения данной
+                информации.<br>
+
+                4.2. Администрация Сайта обязана:<br>
+
+                4.2.1. Использовать полученную информацию исключительно для целей, указанных в настоящей Политике
+                конфиденциальности.<br>
+
+                4.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного
+                письменного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование либо
+                разглашение иными возможными способами переданных персональных данных Пользователя, за исключением
+                предусмотренных настоящей Политикой конфиденциальности.<br>
+
+                4.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя
+                согласно порядку, обычно используемому для защиты такого рода информации в существующем деловом обороте.<br>
+
+                4.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с
+                момента обращения или запроса Пользователя или его законного представителя либо уполномоченного органа
+                по защите прав субъектов персональных данных на период проверки в случае выявления недостоверных
+                персональных данных или неправомерных действий.<br>
+
+                <h3>ОТВЕТСТВЕННОСТЬ СТОРОН</h3><br>
+                5.1. Администрация Сайта, не исполнившая свои обязательства, несет ответственность за убытки, понесенные
+                Пользователем в связи с неправомерным использованием персональных данных, в соответствии с
+                законодательством Российской Федерации.<br>
+                5.2. В случае утраты или разглашения конфиденциальной информации Администрация Сайта не несет
+                ответственности, если данная конфиденциальная информация:<br>
+
+                5.2.1. Стала публичным достоянием до ее утраты или разглашения.<br>
+
+                5.2.2. Была получена от третьей стороны до момента ее получения Администрацией Сайта.<br>
+
+                5.2.3. Была разглашена с согласия Пользователя.<br>
+
+                <h3>РАЗРЕШЕНИЕ СПОРОВ</h3>
+                6.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем Сайта и
+                Администрацией Сайта, обязательным является предъявление претензии (письменного предложения о
+                добровольном урегулировании спора).<br>
+                6.2. Получатель претензии в течение 30 календарных дней со дня получения претензии письменно уведомляет
+                заявителя претензии о результатах рассмотрения претензии.<br>
+
+                6.3. При недостижении соглашения спор будет передан на рассмотрение в суд в соответствии с действующим
+                законодательством Российской Федерации.<br>
+
+                6.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией Сайта
+                применяется действующее законодательство Российской Федерации.<br>
+
+                <h3>ДОПОЛНИТЕЛЬНЫЕ УСЛОВИЯ</h3><br>
+                7.1. Администрация Сайта вправе вносить изменения в настоящую Политику конфиденциальности без согласия
+                Пользователя.<br>
+                7.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте, если иное не
+                предусмотрено новой редакцией Политики конфиденциальности.<br>
+
+                7.3. Все предложения или вопросы по настоящей Политике конфиденциальности следует направлять по
+                электронному адресу: click@patentica.com.<br>
+
+                7.4. Действующая Политика конфиденциальности размещена на странице по адресу: сlickpatent.ru.<br>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+
+    <div class="startPage">
+        <div class="header">
+            <div class="menu-header main-grid">
+                <div class="menu-header-content">
+                    <div class="wrap-logo"></div>
+                    <div class="menu-header-wrap">
+
+
+                        <ul class="menu-header-text">
+                            <li><a href="#anch1" class="menu-link">О компании</a></li>
+                            <li><a href="#anch2" class="menu-link">Онлайн проверка ТМ</a></li>
+                            <li><a href="#anch3" class="menu-link">Процесс регистрации ТМ</a></li>
+                            <li><a href="#anch4" class="menu-link">Стоимость</a></li>
+                            <li><a href="#anch5" class="menu-link">Контакты</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="menu-header-contentRight">
+                    <div class="menu-container-right-container-lang">
+                        <a href="#"> RU </a>
+                        /
+                        <a href="#"> EN</a>
+                    </div>
+
+                    <a class="menu-container-right-container-1" href="tel:+7 (987) 090 90 97"></a>
+
+
+                    <div class="menu-header-button-container">
+                        <a class="btn trigger" href="#">
+                            <button class="menu-header-button">
+                                Заказать звонок
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="reg-tittle main-grid">
+            <div class="reg-tittle-grid">
+                <div class="reg-tittle-content">
+                    <div class="tittle">
+                        Регистрация
+                        товарных знаков
+                    </div>
+                    <div class="description">
+                        Получите бесплатную консультацию и предварительный анализ охраноспособности знака в Clickpatent
+
+                    </div>
+
+                    <div class="sendNumberFirst">
+                        <input class="numberWrite" type="phone" id="phone1" name="phone"
+                               placeholder="Введите свой телефон" required>
+                        <button class="form_sub" type="button" id="submit1">
+                            <a>Отправить</a>
+                        </button>
+                        <button class="sendButMobile" type="button" id="submit2">
+                        </button>
+                    </div>
+
+
+                    <div class="checkButton">
+                        <button class="checkBut">
+                            <a class="btn trigger">Проверить товарный знак по базе</a>
+                        </button>
+                    </div>
+
+                    <div class="checkDesc">
+                        <div class="div">*</div>
+                        <div class="checkText">Нажимая кнопку «Отправить», вы даете согласие на обработку своих
+                            персональных данных,
+                            в соответствии <a class="triggerPol" href="#">с Политикой конфиденциальности сайта</a></div>
+                    </div>
+
+                </div>
+
+                <div class="reg-tittle-anim">
+                    <div id="regAnimCircle"></div>
+                    <div id="regAnimLight"></div>
+                    <div id="regAnimShadow"></div>
+                    <div id="regAnim1"></div>
+                    <div id="regAnim2"></div>
+                    <div id="regAnim3"></div>
+                    <div id="regAnim4"></div>
+                    <div id="regAnim5"></div>
+                    <div id="regAnim6"></div>
+                    <div id="regAnim7"></div>
+                    <div id="regAnim8"></div>
+                    <div id="regAnim9"></div>
+                    <div id="regAnim10"></div>
+                    <div id="regAnim11"></div>
+                    <div id="regAnim12"></div>
+                    <div id="regAnim13"></div>
+                    <div id="regAnim14"></div>
+                    <div id="regAnim15"></div>
+                    <div id="regAnim16"></div>
+                    <div id="regAnim17"></div>
+                    <div id="regAnim18"></div>
+                    <div id="regAnim19"></div>
+                    <div id="regAnim20"></div>
+                    <div id="regAnim21"></div>
+                    <div id="regAnim22"></div>
+                    <div id="regAnim23"></div>
+                    <div id="regAnim24"></div>
+                    <div id="regAnim25"></div>
+                    <div id="regAnim26"></div>
+                    <div id="regAnim27"></div>
+                    <div id="regAnim28"></div>
+                    <div id="regAnim29"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="startPageFooter">
+        <div class="startPageFooterContentFlex">
+            <div class="startPageFooterContent main-grid">
+
+                <div class="startPageFooterContentGrid">
+
+                    <div class="startPageFooterContentLeft">
+                        <div class="startPageFooterContentLeftTittle">
+                            Защищаем идеи наших
+                            клиентов
+                        </div>
+
+                        <div class="startPageFooterContentLeftDesc">
+                            Мы зарегистрировали более 5000 товарных знаков в России и за рубежом. Работаем как с
+                            крупными
+                            компаниями, так и со средним и малым бизнесом.
+                        </div>
+
+                        <a href="#" class="startPageFooterContentLeftRequest btn trigger">
+                            Оставить заявку на регистрацию товарного знака
+                        </a>
+
+
+                    </div>
+                    <div class="startPageFooterContentRight">
+                        <div class="startFooterLogoKia"></div>
+                        <div class="startFooterLogoRostelecom"></div>
+                        <div class="startFooterLogoOwox"></div>
+                        <div class="startFooterLogoWest"></div>
+                        <div class="startFooterLogoAvito"></div>
+                        <div class="startFooterLogoNvidia"></div>
+                        <div class="startFooterLogoGenius"></div>
+                        <div class="startFooterLogoHp"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="guardBrend" id="anch1">
+        <div class="guardBrendContent main-grid">
+            <div class="guardBrendContentGrid">
+                <div class="guardBrendContentLeft">
+                    <div class="guardBrendContentLeftTittle">
+                        Доверьте нам защиту вашего бренда
+                    </div>
+                    <div class="guardBrendContent1">
+                        <div class="guardBrendContentTittle">
+                            Гарантия результата с первой попытки регистрации
+                        </div>
+                        <div class="guardBrendContentDesc">Мы не привыкли тратить время наших клиентов на многочисленные
+                            попытки регистрации товарных знаков
+                        </div>
+                    </div>
+                    <div class="guardBrendContent2">
+                        <div class="guardBrendContentTittle">Проводим регистрацию товарного знака под ключ</div>
+                        <div class="guardBrendContentDesc">Все действия от начала и до конца делаем сами. Работаем
+                            быстро и профессионально. Берем на себя оформление всех документов
+                        </div>
+
+                    </div>
+                    <div class="guardBrendContent3">
+                        <div class="guardBrendContentTittle">Защитим ваш бренд от конкурентов</div>
+                        <div class="guardBrendContentDesc">Не допустим использование вашего товарного знака
+                            недобросовестными конкурентами
+                        </div>
+
+                    </div>
+                    <div class="guardBrendContent4">
+                        <div class="guardBrendContentTittle">Без лишнего бюрократизма</div>
+                        <div class="guardBrendContentDesc">Делаем процедуру регистрации товарного знака максимально
+                            простой и понятной для вас
+                        </div>
+
+                    </div>
+                    <div class="guardBrendContent5">
+                        <div class="guardBrendContentTittle">Юридическая поддержка на всех этапах</div>
+                        <div class="guardBrendContentDesc">Любые сложности при регистрации товарного знака – не проблема
+                            для наших экспертов
+                        </div>
+                    </div>
+                    <div class="guardBrendContent6">
+                        <div class="guardBrendContentTittle">Высокий сервис и быстрое время ответа на ваш запрос</div>
+                        <div class="guardBrendContentDesc">Мы знаем, как вы цените свое время. И готовы вам помочь.
+                        </div>
+                    </div>
+                </div>
+                <div class="guardBrendContentRight">
+
+                    <div class="countReg countOne">5000</div>
+                    <div class="countRegContent countContent">Товарных знаков зарегистрировано компанией ClickPatent
+                    </div>
+                    <div class="countWork count">30</div>
+                    <div class="countWorkContent countContent">Патентных поверенных работает в нашей компании</div>
+                    <div class="countAge count">20</div>
+                    <div class="countAgeContent countContent">Более 20 лет опыта регистрации товарных знаков в России и
+                        зарубежом
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="checkPatent" id="anch2">
+        <div class="checkPatentContent main-grid">
+            <div class="cubeLeftUp"></div>
+            <div class="cubeLeftDown"></div>
+            <div class="checkPatentContentGrid">
+                <div class="checkPatentContentLeft">
+                    <div class="checkPatentContentLeftTittle">
+                        Проверьте свободен ли ваш
+                        товарный знак для регистрации
+                    </div>
+                    <div class="checkPatentContentLeftLogo">
+                        <div class="checkPatentLogoOnline">
+                            <div class="checkPatentLogoOnlineImg">
+
+                            </div>
+                            <div class="checkPatentLogoDesc">
+                                Онлайн
+                            </div>
+                        </div>
+                        <div class="checkPatentLogoFree">
+                            <div class="checkPatentLogoFreeImg">
+
+                            </div>
+                            <div class="checkPatentLogoDesc">
+                                Бесплатно
+                            </div>
+                        </div>
+                        <div class="checkPatentLogoClick">
+                            <div class="checkPatentLogoClickImg">
+
+                            </div>
+                            <div class="checkPatentLogoDesc">
+                                В 2 клика
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkPatentContentLeftDesc">
+                        Вы можете воспользоваться нашей базой зарегистрированных товарных знаков.
+                        Проведите первичный экспресс-поиск перед обращением к нам. Но не забывайте, что это не дает
+                        гарантии того , что ваш знак можно зарегистрировать. Эта база служит для первичной проверки.
+                        Здесь и на других открытых поисковиках поиск осуществляется только по открытым базам, а в рамках
+                        наших услуг мы дадим надёжный и точный результат.
+                    </div>
+                    <div class="cubeCenterUp"></div>
+                    <div class="cubeCenterDown"></div>
+                    <div class="cubeRightUp"></div>
+                    <div class="cubeRightCenterDown"></div>
+                    <div class="cubeRightDownDown"></div>
+                    <button class="checkPatentBut">
+                        <a>Проверить по базе</a>
+                    </button>
+                </div>
+                <div class="checkPatentContentRight">
+                    <div class="checkPatentContentRightTittle">
+                        Не забудьте уточнить классы МКТУ
+                    </div>
+
+                    <a class="checkPatentContentRightMK linkMk" href="#">Что такое классы МКТУ</a>
+                    <div class="checkPatentMK  linkMk">
+                        <div class="checkPatentClassImg"></div>
+                        <a class="checkPatentContentRightClassMK" href="#">Существующие классы МКТУ</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeReg" id="timeRegs">
+        <div class="timeRegContent main-grid">
+            <div class="timeRegContentGrid">
+                <div class="timeRegContentLeft">
+                    <div class="timeRegContentLeftTittle">
+                        Пришло время зарегистрировать свой
+                        товарный знак, если:
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Ваш бренд приобретает известность
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">
+                            У популярности есть вторая сторона – завистники и те, кто хочет поживиться на вашей славе.
+                        </div>
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Вы хотите защитить себя и свою компанию от мошенников
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">К сожалению, такие случае – не редкость. Но мы знаем
+                            как этого не допустить.
+                        </div>
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Вы планируете развитие своего бизнеса
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">Защитите свой бизнес сегодня и развивайтесь уверенно
+                            по
+                            России и зарубежом.
+                        </div>
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Вы хотите юридически обезопасить свой бизнес
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">Закон также будет на стороне вашего бренда.</div>
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Вы хотите поднять имидж своего бизнеса
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">Зарегистрированный товарный знак – это действительно
+                            твердый и уверенный бренд.
+                        </div>
+                    </div>
+                    <div class="timeRegContentLeftChoise">
+                        <div class="timeRegContentLeftChoiseTittle blue">
+                            Вы хотите создать франшизу
+                        </div>
+                        <div class="timeRegContentLeftChoiseDesc">Это – обязательное условие для начала регистрации
+                            франшизы.
+                        </div>
+                    </div>
+                    <div class="timeRegButton">
+                        <button class="regBut">
+                            <a class="btn trigger">Защитить свой бренд</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="timeRegContentRight" id="timeRegAnim">
+                    <div id="timeRegAnim2"></div>
+                    <div id="timeRegAnim3"></div>
+                    <div id="timeRegLeft"></div>
+                    <div id="timeRegLeft2"></div>
+                    <div id="timeRegRight"></div>
+                    <div id="timeRegRight2"></div>
+                    <div id="timeRegTop"></div>
+                    <div id="timeCircle1"></div>
+                    <div id="timeCircle2"></div>
+                    <div id="timeCircle3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dangerReg" id="dangerRegs">
+        <div class="dangerRegContent main-grid">
+            <div class="dangerRegContentGrid">
+                <div class="dangerRegContentLeft" id="dangerRegAnim">
+                    <div id="dangerAnim1"></div>
+                    <div id="dangerAnim2"></div>
+                    <div id="dangerAnim3"></div>
+                    <div id="dangerAnim4"></div>
+                    <div id="dangerAnim5"></div>
+                    <div id="dangerAnim6"></div>
+                    <div id="dangerAnim7"></div>
+                    <div id="dangerAnim8"></div>
+
+
+                </div>
+                <div class="dangerRegContentRight">
+                    <div class="dangerRegContentRightTittle">
+                        Не регистрировать свой товарный
+                        знак — опасно
+                    </div>
+                    <div class="dangerRegContentRightChoise">
+                        <div class="dangerRegContentrightChoiseTittle red">
+                            Мошенники раньше вас зарегистрируют товарный знак и потребуют компенсацию
+                        </div>
+                        <div class="dangerRegContentRightChoiseDesc">
+                            Сумма компенсации за использование чужого товарного знака варьируется до 5 млн. рублей.
+                        </div>
+                    </div>
+                    <div class="dangerRegContentRightChoise">
+                        <div class="dangerRegContentrightChoiseTittle red">
+                            Недобросовестные конкуренты будут работать под вашим или похожим брендом
+                        </div>
+                        <div class="dangerRegContentRightChoiseDesc">
+                            И даже вы можете по незнанию использовать логотип, который на самом деле уже кто-то
+                            зарегистрировал.
+                        </div>
+                    </div>
+                    <div class="dangerRegContentRightChoise">
+                        <div class="dangerRegContentrightChoiseTittle red">
+                            Невозможность масштабирования во франшизу
+                        </div>
+                        <div class="dangerRegContentRightChoiseDesc">
+                            Если вы хотите создать франшизу, вам необходимо зарегистрировать товарный знак.
+                        </div>
+                    </div>
+                    <div class="dangerRegContentRightChoise">
+                        <div class="dangerRegContentrightChoiseTittle red">
+                            Потеря доверия и имиджа
+                        </div>
+                        <div class="dangerRegContentRightChoiseDesc">
+                            Крупные торговые площадки больше доверяют и хотят сотрудничать с зарегистрированными
+                            товарными знаками.
+                        </div>
+                    </div>
+                    <div class="dangerRegContentRightFoot">
+                        Больше никаких рисков!
+                    </div>
+                    <div class="dangerButton">
+                        <button class="dangerBut">
+                            <a class="btn trigger">Оставить заявку</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fastClick" id="anch3">
+
+        <div class="fastClick main-grid">
+
+            <div class="fastClickTittle">
+                ClickPatent работает быстро и прозрачно
+            </div>
+
+
+            <div class="fastClickContent">
+                <div class="fastClick1">
+                    <div class="fastClick1Img fastImg"></div>
+                    <div class="fastClick1Desc fastDesc">
+                        <div class="fastDescOne">1. Определяем вид товарного знака:</div>
+                        <div class="fastDescMini">
+                            <div class="popup" onclick="myFunction()">словесный<span class="popuptext" id="myPopup"><div
+                                    class="tittlePop">Словесный</div>
+<span class="tittlePopDown">Например: Газпром, Альфабанк, Пятерочка</span> <span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+<br><ul>
+                                        <li>затем слово можно использовать в любом цветовом и шрифтовом исполнении; </li>
+                                        <li>добавить любой логотип, при этом это всё равно позволит запрещать другим лицам использовать Ваше обозначение, поскольку, в большинстве случаев, слово является доминирующей частью обозначений.</li>
+                                    </ul>
+
+                                </span></span></div>
+                            ,
+                            <div class="popup" onclick="myFunction1()"> изобразительный
+                                <div class="popuptext" id="myPopup1">
+                                    <div class="tittlePop">Изобразительный</div>
+                                    <span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+Регистрация изобразительного товарного знака актуальна, если у вас есть оригинальное изображение, которое планируется использовать для индивидуализации товаров или услуг вашего бизнеса.
+Например:
+
+                                </span>
+                                    <div class="popupImg">
+                                        <div class="nike"></div>
+                                        <div class="apple"></div>
+                                        <div class="ch"></div>
+                                    </div>
+                                </div>
+                                </span> </div>
+                            ,
+                            <div class="popup" onclick="myFunction2()"> комбинированный <span class="popuptext"
+                                                                                              id="myPopup2"><div
+                                    class="tittlePop">Комбинированный</div><span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+Слово + изображение. Самый популярный вид регистрируемых товарных знаков. Именно такие знаки чаще всего являются основой имиджа бизнеса.
+Например:
+
+
+                                </span>
+                              <div class="popupImg">
+                                     <div class="star"></div>
+                            <div class="adidas"></div>
+                            <div class="bg"></div>
+
+                        </div>
+                            </span>
+                            </div>
+                            ,
+                            <div class="popup" onclick="myFunction3()">позиционный <span class="popuptext"
+                                                                                         id="myPopup3"><div
+                                    class="tittlePop">Позиционный </div><span class="popupDesc">Товарный знак расположенный на определённой части товара.  </span>  <div
+                                    class="popupImg">
+                                     <div class="lipton"></div>
+                            <div class="activia"></div>
+                            <div class="rich"></div>
+
+                        </div>
+                        </span></div>
+                            ,
+                            <div class="popups" onclick="myFunction4()">
+                                <div class="other">другое(объемный, обонятельный, звуковой)</div>
+                                <span class="popuptext" id="myPopup4"><div class="tittlePop">Другое</div><span
+                                        class="tittlePopDown">Регистрировать необходимо и другие виды товарных знаков — бъёмный знак, обонятельный, звуковой.
+
+
+                                </span><span class="popupDesc">Например: радио-джингл Европа Плюс, запах скошенной травы для теннисных мячиков, персонаж ВимБильДан, запах лаванды и ванили для канцелярских принадлежностей.
+
+
+                                </span></span></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="fastClick2">
+                    <div class="fastClick2Img fastImg"></div>
+                    <div class="fastClick2Desc fastDesc">2. Подбираем классы МКТУ</div>
+                </div>
+
+                <div class="fastClick3">
+                    <div class="fastClick3Img fastImg"></div>
+                    <div class="fastClick3Desc fastDesc">3. Проводим полный и оценочный поиск перед подачей на
+                        регистрацию
+                    </div>
+                </div>
+                <div class="fastClick4">
+                    <div class="fastClick4Img fastImg"></div>
+                    <div class="fastClick4Desc fastDesc">4. Готовим пакет документов
+                    </div>
+                </div>
+
+                <div class="fastClickRightLine">
+
+                </div>
+
+                <div class="fastClickMainLine">
+
+                </div>
+                <div class="fastClickLeftLine"></div>
+                <div class="fastClick5">
+                    <div class="fastClick5Img fastImg"></div>
+                    <div class="fastClick5Desc fastDesc">5. Подаем заявку на регистрацию</div>
+                </div>
+                <div class="fastClick6">
+                    <div class="fastClick6Img fastImg"></div>
+                    <div class="fastClick6Desc fastDesc">6. Прохождение экспертизы в Роспатенте</div>
+                </div>
+                <div class="fastClick7">
+                    <div class="fastClick7Img fastImg"></div>
+                    <div class="fastClick7Desc fastDesc">7. Получаем решение о регистрации</div>
+                </div>
+                <div class="fastClick8">
+                    <div class="fastClick8Img fastImg"></div>
+                    <div class="fastClick8Desc fastDesc">8. Выдаем свидетельство о регистрации вашего товарного знака
+                    </div>
+                </div>
+
+                <div class="fastButton">
+                    <button class="fastBut">
+                        <a class="btn trigger">Доверить регистрацию ClickPatent</a>
+                    </button>
+                </div>
+                <div class="fastButtonMobile">
+                    <button class="fastButMobile">
+                        <a class="btn trigger">Оставить заявку</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="fastClickMobile">
+
+        <div class="fastClickMobile main-grid">
+
+            <div class="fastClickTittle">
+                ClickPatent работает быстро и прозрачно
+            </div>
+
+            <div class="fastClickContentMobile">
+                <div class="fastClickMobile1row-out">
+                    <div class="fastClickMobile1row-out2">
+                        <div class="fastClickMobile1row">
+
+                            <div class="fastClick1ImgMobile fastImg"></div>
+                            <div class="fastClick2ImgMobile fastImg"></div>
+                            <div class="fastClick3ImgMobile fastImg"></div>
+                            <div class="fastClick4ImgMobile fastImg"></div>
+
+
+                        </div>
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="fastDescMini">
+                                    <div class="popup" onclick="myFunction5()">словесный<span class="popuptext"
+                                                                                              id="myPopupMobile"><div
+                                            class="tittlePop">Словесный</div>
+<span class="tittlePopDown">Например: Газпром, Альфабанк, Пятерочка</span> <span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+<br><ul>
+                                        <li>затем слово можно использовать в любом цветовом и шрифтовом исполнении; </li>
+                                        <li>добавить любой логотип, при этом это всё равно позволит запрещать другим лицам использовать Ваше обозначение, поскольку, в большинстве случаев, слово является доминирующей частью обозначений.</li>
+                                    </ul>
+
+                                </span></span></div>
+                                    ,
+                                    <div class="popup" onclick="myFunction6()"> изобразительный
+                                        <div class="popuptext" id="myPopup1Mobile">
+                                            <div class="tittlePop">Изобразительный</div>
+                                            <span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+Регистрация изобразительного товарного знака актуальна, если у вас есть оригинальное изображение, которое планируется использовать для индивидуализации товаров или услуг вашего бизнеса.
+Например:
+
+                                </span>
+                                            <div class="popupImg">
+                                                <div class="nike"></div>
+                                                <div class="apple"></div>
+                                                <div class="ch"></div>
+                                            </div>
+                                        </div>
+                                        </span> </div>
+                                    ,
+                                    <div class="popup" onclick="myFunction7()"> комбинированный <span class="popuptext"
+                                                                                                      id="myPopup2Mobile"><div
+                                            class="tittlePop">Комбинированный</div><span class="popupDesc">Самый универсальный способ охраны своего обозначения, так как:
+Слово + изображение. Самый популярный вид регистрируемых товарных знаков. Именно такие знаки чаще всего являются основой имиджа бизнеса.
+Например:
+
+
+                                </span>
+                              <div class="popupImg">
+                                     <div class="star"></div>
+                            <div class="adidas"></div>
+                            <div class="bg"></div>
+
+                        </div>
+                            </span>
+                                    </div>
+                                    ,
+                                    <div class="popup" onclick="myFunction8()">позиционный <span class="popuptext"
+                                                                                                 id="myPopup3Mobile"><div
+                                            class="tittlePop">Позиционный </div><span class="popupDesc">Товарный знак расположенный на определённой части товара.  </span>  <div
+                                            class="popupImg">
+                                     <div class="lipton"></div>
+                            <div class="activia"></div>
+                            <div class="rich"></div>
+
+                        </div>
+                        </span></div>
+                                    ,
+                                    <div class="popups" onclick="myFunction9()">
+                                        <div class="other">другое(объемный, обонятельный, звуковой)</div>
+                                        <span class="popuptext" id="myPopup4Mobile"><div
+                                                class="tittlePop">Другое</div><span
+                                                class="tittlePopDown">Регистрировать необходимо и другие виды товарных знаков — бъёмный знак, обонятельный, звуковой.
+
+
+                                </span><span class="popupDesc">Например: радио-джингл Европа Плюс, запах скошенной травы для теннисных мячиков, персонаж ВимБильДан, запах лаванды и ванили для канцелярских принадлежностей.
+
+
+                                </span</span></div>
+
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="fastClick4Desc fastDesc">2. Подбираем классы МКТУ
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="fastClick5Mobile">
+                    </div>
+                </div>
+                <div class="fastClickMobileLongArrowws">
+                </div>
+                <div class="fastClickMobile2row-out">
+                    <div class="fastClick5Mobile-left">
+                    </div>
+                    <div class="fastClickMobile2row-out2">
+                        <div class="fastClickMobile1row">
+
+
+                            <div class="fastClick5ImgMobile fastImg"></div>
+                            <div class="fastClick2ImgMobile fastImg"></div>
+                            <div class="fastClick7ImgMobile fastImg"></div>
+                            <div class="fastClick4ImgMobile fastImg"></div>
+
+
+                        </div>
+
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="fastClick3Desc fastDesc">3. Проводим полный и оценочный поиск перед подачей
+                                    на
+                                    регистрацию
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="fastClick4Desc fastDesc">4. Готовим пакет документов
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="fastClick5Mobile">
+                    </div>
+
+                </div>
+                <div class="fastClickMobileLongArrow"></div>
+                <div class="fastClickMobile3row-out">
+                    <div class="fastClick5Mobile-left"></div>
+                    <div class="fastClickMobile3row-out2">
+                        <div class="fastClickMobile1row">
+
+                            <div class="fastClick9ImgMobile fastImg"></div>
+                            <div class="fastClick2ImgMobile fastImg"></div>
+                            <div class="fastClick11ImgMobile fastImg"></div>
+                            <div class="fastClick4ImgMobile fastImg"></div>
+
+                            <!-- тут заменить стрелку-->
+
+
+                        </div>
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="fastClick3Desc fastDesc">5. Подаем заявку на регистрацию
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="fastClick4Desc fastDesc">4. Готовим пакет документов
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="fastClick5Mobile">
+                    </div>
+                </div>
+                <div class="fastClickMobileLongArrows">
+
+                </div>
+                <div class="fastClickMobile4row-out">
+                    <div class="fastClick5Mobile-left">
+                    </div>
+                    <div class="fastClickMobile4row-out2">
+                        <div class="fastClickMobile1row">
+
+
+                            <div class="fastClick13ImgMobile fastImg"></div>
+                            <div class="fastClick2ImgMobile fastImg"></div>
+                            <div class="fastClick15ImgMobile fastImg"></div>
+                            <div class="fastClick16ImgMobile fastImg"></div>
+
+
+                        </div>
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="fastClick3Desc fastDesc">7. Получаем решение о регистрации
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="fastClick4Desc fastDesc">8. Выдаем свидетельство о регистрации вашего
+                                    товарного знака
+                                </div>
+                            </div>
+                            <!--кривая стрелка-->
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="fastButton">
+                    <button class="fastBut">
+                        <a class="btn trigger">Доверить регистрацию ClickPatent</a>
+                    </button>
+                </div>
+                <div class="fastButtonMobile">
+                    <button class="fastButMobile">
+                        <a class="btn trigger">Оставить заявку</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="completDocs" id="completsDocs">
+        <div class="completDocsContent main-grid">
+            <div class="completDocsContentGrid">
+                <div class="completDocsContentLeft">
+                    <div class="completDocsContentLeftTittle">Готовим все документы за вас, пока
+                        вы занимаетесь своим бизнесом
+                    </div>
+                    <div class="completDocsContentChoise">
+                        <div class="completDocsContentChoiseTittle">Обязательные документы:</div>
+                        <div class="completDocsContentChoiseDesc">
+                            <ol>
+                                <li>Заявление на регистрацию товарного знака</li>
+                                <li>Заявленное обозначение</li>
+                                <li>Перечень товаров и услуг</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="completDocsContentChoise">
+                        <div class="completDocsContentChoiseTittle">Дополнительные документы:</div>
+                        <div class="completDocsContentChoiseDescUp">Около 15 видов в зависимости от сложности
+                            регистрации. Список с каждым годом расширяется.
+
+
+                        </div>
+                        <div class="completDocsContentChoiseDescDown"> Бюрократизм и работа с несчетным количеством
+                            бумаг – больше не ваша головная боль. Просто оставьте заявку и мы сделаем все за вас!
+                        </div>
+                    </div>
+                    <div class="complButton">
+                        <button class="complBut">
+                            <a class="btn trigger">Оставить заявку</a>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="completDocsContentRight">
+
+
+                    <div class="bookAnim">
+                        <div id="completCircle1"></div>
+                        <div id="completCircle2"></div>
+                        <div id="completCircle3"></div>
+                        <div id="completAnim1"></div>
+                        <div id="completAnim2"></div>
+                        <div id="completAnim3"></div>
+                        <div id="completAnim4"></div>
+                        <div id="completAnim5"></div>
+                        <div id="completAnim6"></div>
+                        <div id="completAnim7"></div>
+                        <div id="completAnim8"></div>
+                        <div id="completAnim9"></div>
+                        <div id="completAnim10"></div>
+                        <div id="completBook"></div>
+                        <div id="bookOk"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="indReg">
+        <div class="indRegContent main-grid">
+            <div class="indRegContentGrid">
+                <div class="indRegContentLeft">
+                    <div class="indRegContentTittle">
+                        Самостоятельная регистрация
+                        товарного знака – долго и дорого
+                    </div>
+                    <div class="indRegContentTittleDesc ">
+                        Где вы можете ошибиться при попытке самостоятельной регистрации?
+                    </div>
+
+
+                    <div class="indRegContents">
+                        <div class="indRegContent1">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText1">Потеря денег и времени в случае отказа от
+                                Роспатента
+                            </div>
+                        </div>
+                        <div class="indRegContent2">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText2">Неправильный подбор классов МКТУ</div>
+                        </div>
+                        <div class="indRegContent3">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText3">Ошибки при поиске товарного знака по базе</div>
+                        </div>
+                        <div class="indRegContent4">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText3">Переплата денег</div>
+                        </div>
+                        <div class="indRegContent5">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText4">Неправильный сбор и заполнение документации
+                            </div>
+                        </div>
+                        <div class="indRegContent6">
+                            <div class="indRegContentImg"></div>
+                            <div class="indRegContentText" id="indText5">Доработка дизайна логотипа под критерии
+                                охраноспособности и
+                                регистрации
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="indRegContentDown">
+                        Доверьте регистрацию ClickPatent
+                    </div>
+                    <div class="indButton">
+                        <button class="indBut">
+                            <a class="btn trigger">Оставить заявку</a>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="workClick">
+        <div class="cubesLeftUp"></div>
+        <div class="cubesLeftDown"></div>
+        <div class="cubesRightUp"></div>
+        <div class="cubesRightDown"></div>
+        <div class="workClick main-grid">
+            <div class="workClickContentTittle">
+                Как проходит работа с ClickPatent
+            </div>
+            <div class="workClickContentImg">
+                <div class="workClickContentFlex">
+                    <div class="workClick1 workFlex">
+                        <div class="workClick1Img">
+
+                        </div>
+                        <div class="workClick1Desc workDesc">
+                            1. Вы оставляете
+                            заявку на нашем сайте
+                        </div>
+                    </div>
+                    <div class="workClick2 workFlex">
+                        <div class="workClick2Img">
+
+                        </div>
+                        <div class="workClick2Desc workDesc">
+                            2. Мы выделяем для вас личного
+                            менеджера, который будет
+                            вести ваш проект
+                        </div>
+                    </div>
+                    <div class="workClick3 workFlex">
+                        <div class="workClick3Img">
+
+                        </div>
+                        <div class="workClick3Desc workDesc">
+                            3. Всю дальнейшую работу мы
+                            берем на себя
+                        </div>
+                    </div>
+                    <div class="workClick4 workFlex">
+                        <div class="workClick4Img">
+
+                        </div>
+                        <div class="workClick4Desc workDesc">
+                            4. Вы приходите за
+                            свидетельством в Роспатент
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="workButton">
+            <button class="wrkBut">
+                <a class="btn trigger">Сделать первый шаг</a>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="workClickMobiles">
+        <div class="fastClickMobile main-grid">
+
+            <div class="workClickContentTittles">
+                Как проходит работа с ClickPatent
+            </div>
+
+            <div class="worksClickContentMobile">
+
+                <div class="fastClickMobile3row-out">
+
+                    <div class="fastClickMobile3row-out2">
+                        <div class="workClickMobile1row">
+
+                            <div class="workClickMobile1"></div>
+                            <div class="workClickMobile2"></div>
+                            <div class="workClickMobile3"></div>
+                            <div class="workClickMobile4"></div>
+
+                            <!-- тут заменить стрелку-->
+
+
+                        </div>
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="workClick1Desc workDesc">
+                                    1. Вы оставляете
+                                    заявку на нашем сайте
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="workClick2Desc workDesc">
+                                    2. Мы выделяем для вас личного
+                                    менеджера, который будет
+                                    вести ваш проект
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="workClickMobile">
+                    </div>
+                </div>
+                <div class="workClickMobileLongArrow">
+
+                </div>
+                <div class="fastClickMobile4row-out">
+                    <div class="workClick5Mobile-left">
+                    </div>
+                    <div class="fastClickMobile4row-out2">
+                        <div class="fastClickMobile1rows">
+
+
+                            <div class="workClick13ImgMobile"></div>
+                            <div class="workClickMobile2"></div>
+                            <div class="workClick15ImgMobile"></div>
+
+
+                        </div>
+                        <div class="fastClickMobile2row">
+                            <div class="fastClick3Mobile">
+
+                                <div class="workClick3Desc workDesc">
+                                    3. Всю дальнейшую работу мы
+                                    берем на себя
+                                </div>
+                            </div>
+                            <div class="fastClick4Mobile">
+                                <div class="workClick4Desc workDesc">
+                                    4. Вы приходите за
+                                    свидетельством в Роспатент
+                                </div>
+                            </div>
+                            <!--кривая стрелка-->
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="workButton">
+                    <button class="wrkBut">
+                        <a class="btn trigger">Сделать первый шаг</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="teamClick main-grid">
+        <div class="teamClickContentGrid">
+            <div class="teamClickContentLeft"></div>
+            <div class="teamClickContentRight">
+                <div class="teamClickContentRightDesc">ClickPatent – дочерняя компания старейшего патеного бюро
+                    Санкт-Петербурга “Patentica”. Мы – адвокаты и юристы с большим опытом работы в решении вопросов
+                    регистрации товарных знаков.<br>Более 20 лет на рынке и входим в топ-10 среди российских компаний в
+                    области ИС. В нашем портфолио более 8 000 успешных кейсов.
+                </div>
+                <div class="teamClickContentRightSite">
+                    <a href="http://www.patentica.ru" target="_blank"> www.patentica.ru</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="teamClickPeople main-grid">
+        <div class="teamClickPeopleTittle">
+            Команда ClickPatent
+        </div>
+        <div class="teamClickPeopleImg">
+
+        </div>
+
+
+    </div>
+    <div class="teamClickPeopleDesc">
+        Мы – специалисты в области патентного права, которые трудятся на благо защиты ваших идей и вашего бизнеса.
+        Мы не боимся трудностей и всегда доводим регистрацию товарных знаков до конца.
+    </div>
+
+    <div class="pricer main-gridPrice" id="anch4">
+        <div class="pricerContentGrid">
+            <div class="pricerContentTittle">Наши цены без звездочек</div>
+            <div class="pricerContentTittleDesc">
+                Гибкие тарифы специально под ваш запрос, без навязывания лишних услуг
+            </div>
+            <div class="pricerContentCards-content">
+                <div class="pricerContentCards"></div>
+
+            </div>
+
+
+            <div class="priceContentDown">
+                <div class="pricerContentCards-buttons">
+                    <div id="pricerContentCards-1" class="circleUp circle-active"></div>
+                    <div id="pricerContentCards-2" class="circleUp"></div>
+                    <div id="pricerContentCards-3" class="circleUp"></div>
+                    <div id="pricerContentCards-4" class="circleUp"></div>
+                </div>
+                Цены фиксированные, у нас нет дополнительных платежей
+            </div>
+        </div>
+
+    </div>
+    <div class="freeCall">
+        <div class="freeCallCubsLeft">
+
+        </div>
+        <div class="freeCallCubsRight">
+
+        </div>
+        <div class="freeCallContent main-grid">
+            <div class="freeCallContentGrid">
+                <div class="freeCallContentLeft">
+                    <div class="freeCallContentLeftTittle">
+                        Бесплатно проверим ваш товарный
+                        знак на охраноспособность
+                    </div>
+                </div>
+                <div class="freeCallContentRight">
+                    <div class="sendNumber">
+                        <input class="numberWrite" placeholder="Введите свой телефон" type="text" id="phone2" size="40">
+                        <button class="sendBut shortBut">
+                            <a class="btn trigger">Оставить заявку</a>
+                        </button>
+                    </div>
+                    <div class="freeCallContentRightDesc">
+                        <div class="div">*</div>
+                        <div class="checkText">Нажимая кнопку «Отправить», вы даете согласие на обработку своих
+                            персональных данных,
+                            в соответствии <a class="triggerPol" href="#">с Политикой конфиденциальности сайта</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="allCompany">
+        <div class="allCompanyContent main-grid">
+            <div class="allCompanyContentGrid">
+                <div class="allCompanyContentTittle">
+                    Все услуги компании
+                </div>
+                <div class="Company1 yellow">Ускоренная регистрация товарного знака
+                </div>
+                <div class="Company2 yellow">Комплексная защита интеллектуальной собственности.
+                </div>
+                <div class="Company3 yellow3">Оценка стоимости товарного знака</div>
+                <div class="Company4 yellow">Регистрация упаковки или иного объекта (элементы приложения на телефон,
+                    интерфейс сайта и т.д.) как промышленного образца
+                </div>
+                <div class="Company5 yellow5">Юридическая упаковка бизнеса под франшизу
+                </div>
+                <div class="Company6 yellow6">Товарный знак «под ключ», доработка логотипа для регистрации</div>
+            </div>
+        </div>
+    </div>
+    <div class="peopleResult">
+
+        <div class="peopleCubLeft"></div>
+        <div class="peopleCubCenter"></div>
+        <div class="peopleCubRight"></div>
+        <div class="peopleResultContent main-grid">
+            <div class="peopleResultContent-container">
+                <div class="peopleResultContentGrid">
+                    <div class="peopleResultTittle">
+                        ClickPatent. Мы всегда работаем на результат.
+                    </div>
+                </div>
+                <div class="peopleContentCards-container">
+                    <div class="peopleContentCards">
+
+
+                    </div>
+                </div>
+                <div class="peopleContentCards-buttons">
+                    <div id="peopleContentCards-1" class="circle circle-active "></div>
+                    <div id="peopleContentCards-2" class="circle "></div>
+                    <div id="peopleContentCards-3" class="circle "></div>
+                    <div id="peopleContentCards-4" class="circle "></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="question">
+        <div class="questCubLeft"></div>
+        <div class="questCubRight"></div>
+        <div class="questionContent main-gridQuestion ">
+            <div class="questionContentGrid">
+                <div class="questionContentTittle">
+                    Часто-задаваемые вопросы от наших клиентов
+                </div>
+                <div class="question-content">
+                    <div class="set">
+                        <a href="#">
+                            Как долго длиться регистрация товарного знака?
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content">
+                            <p>С другой стороны реализация намеченных плановых заданий представляет собой интересный
+                                эксперимент проверки систем массового участия. Равным образом консультация с широким
+                                активом обеспечивает широкому кругу (специалистов) участие в формировании системы
+                                обучения кадров, соответствует насущным потребностям. Таким образом рамки и место
+                                обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель
+                                организационной деятельности требуют определения и уточнения позиций, занимаемых
+                                участниками в отношении поставленных задач.</p>
+                        </div>
+                    </div>
+
+                    <div class="set">
+                        <a href="#">
+                            Как можно ускорить регистрацию товарного знака?
+
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content">
+                            <p> С другой стороны реализация намеченных плановых заданий представляет собой интересный
+                                эксперимент проверки систем массового участия. Равным образом консультация с широким
+                                активом обеспечивает широкому кругу (специалистов) участие в формировании системы
+                                обучения кадров, соответствует насущным потребностям. Таким образом рамки и место
+                                обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель
+                                организационной деятельности требуют определения и уточнения позиций, занимаемых
+                                участниками в отношении поставленных задач.</p>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <a href="#">
+                            Какие трудности возникают при регистрации?
+
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content">
+                            <p>С другой стороны реализация намеченных плановых заданий представляет собой интересный
+                                эксперимент проверки систем массового участия. Равным образом консультация с широким
+                                активом обеспечивает широкому кругу (специалистов) участие в формировании системы
+                                обучения кадров, соответствует насущным потребностям. Таким образом рамки и место
+                                обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель
+                                организационной деятельности требуют определения и уточнения позиций, занимаемых
+                                участниками в отношении поставленных задач.</p>
+                        </div>
+                    </div>
+
+                    <div class="set">
+                        <a href="#">
+                            Какие вы даете гарантии на регистрацию товарного знака?
+
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content">
+                            <p> С другой стороны реализация намеченных плановых заданий представляет собой интересный
+                                эксперимент проверки систем массового участия. Равным образом консультация с широким
+                                активом обеспечивает широкому кругу (специалистов) участие в формировании системы
+                                обучения кадров, соответствует насущным потребностям. Таким образом рамки и место
+                                обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель
+                                организационной деятельности требуют определения и уточнения позиций, занимаемых
+                                участниками в отношении поставленных задач.</p>
+                        </div>
+                    </div>
+
+                    <div class="set">
+                        <a href="#">
+                            Вы занимаетесь регистрацией франшизы под ключ?
+
+
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="content">
+                            <p> С другой стороны реализация намеченных плановых заданий представляет собой интересный
+                                эксперимент проверки систем массового участия. Равным образом консультация с широким
+                                активом обеспечивает широкому кругу (специалистов) участие в формировании системы
+                                обучения кадров, соответствует насущным потребностям. Таким образом рамки и место
+                                обучения кадров требуют от нас анализа форм развития. С другой стороны новая модель
+                                организационной деятельности требуют определения и уточнения позиций, занимаемых
+                                участниками в отношении поставленных задач.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="zayavka">
+        <div class="zayavkaCubLeft"></div>
+        <div class="zayavkaCubRight"></div>
+        <div class="zayavkaContent main-gridZayavka ">
+            <div class="zayavkaContentGrid">
+
+                <div class="zayavkaContentTittle">
+                    Просто оставьте заявку.</br>
+                    Остальное мы сделаем за вас.
+                </div>
+                <div class="zayavkaContentName">
+                    <input class="numberZayavka" placeholder="Ваше имя" type="text" size="40">
+                </div>
+                <div class="zayavkaContentNumber">
+                    <input class="numberZayavka" placeholder="Введите свой телефон" id="phone3" type="text" size="40">
+                </div>
+
+                <div class="zayavkaContentButton">
+                    <button class="sendButZayavka">
+                        <a class="btn trigger">Оставить заявку</a>
+                    </button>
+                </div>
+                <div class="zayavkaContentFooter">
+                    <div class="div">*</div>
+                    <div class="checkText">Нажимая кнопку «Отправить», вы даете согласие на обработку своих персональных
+                        данных,
+                        в соответствии <a class="triggerPol" href="#">с Политикой конфиденциальности сайта</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="soc">
+        <div class="socContent main-gridSoc">
+            <div class="socContentGrid">
+                <div class="socContentLeft">
+                    <div class="socContentLeftTittle">Доступны во всех мессенджерах
+                        и социальных сетях и решаем вопросы
+                        оперативно
+                    </div>
+                    <div class="socContentLeftDesc">
+                        <ul>
+                            <li> Всегда онлайн</li>
+                            <li> В офис приезжать не нужно</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="socContentRight">
+                    <div class="socContentRightIcon">
+                        <div class="socInst"></div>
+                        <div class="socViber"></div>
+                        <div class="socWhats"></div>
+                        <div class="socTelegram"></div>
+                    </div>
+                    <div class="socContentRightDesc">
+                        <div class="socContentRightMailContent">
+                            <div class="socContentRightMailIcon"></div>
+                            <div class="socContentRightMail">
+                                <a href="mailto:click@patentica.com">click@patentica.com</a>
+                            </div>
+                        </div>
+                        <div class="socContentRightNumberContent">
+                            <div class="socContentRightNumberIcon"></div>
+                            <div class="socContentRightNumber">
+                                <a href="tel:+7 (987) 090 90 97"> 8 800 345 90 90</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="mapContent">
+                <div class="mapContentTittle" id="anch5">Контакты</div>
+                <div class="mapContentInfo">
+                    <div class="mapContentInfoAddress">
+                        <div class="mapContentInfoAddressTittle">Адреса офисов:</div>
+                        <div class="mapContentInfoAddress1">Офис 5</div>
+                        <div class="mapContentInfoAddress2">Малая Mорская ул., д. 15</div>
+                        <div class="mapContentInfoAddress3">Санкт Петербург</div>
+                        <div class="mapContentInfoAddress4">Россия 190000</div>
+                        <div class="addressMoscow">
+                            <div class="mapContentInfoAddress1">Этаж 25, Офис 1</div>
+                            <div class="mapContentInfoAddress2">Пресненская наб., д. 12,</div>
+                            <div class="mapContentInfoAddress3">Башня "Федерация" (Восток)</div>
+                            <div class="mapContentInfoAddress3">Москва</div>
+                            <div class="mapContentInfoAddress4">Россия 123112</div>
+                        </div>
+                    </div>
+                    <div class="mapContentInfoNumber">
+                        <div class="mapContentInfoNumberTittle">Телефоны:</div>
+                        <div class="mapContentInfoNumber1"><a href="tel:+7 (987) 090 90 97">+7 812 600 2427</a></div>
+                        <div class="mapContentInfoNumber2"><a href="tel:+7 (987) 090 90 97">+7 812 600 2428</a></div>
+                        <div class="mapContentInfoNumber3"><a href="tel:+7 (987) 090 90 97">+7 812 595 4051</a></div>
+                        <div class="mapContentInfoNumber4"><a href="tel:+7 (987) 090 90 97">+7 812 314 5347</a></div>
+                    </div>
+                    <div class="mapContentInfoOther">
+                        <div class="mapContentInfoOtherFax">
+                            <div class="mapContentInfoOtherFaxTittle">Факс:</div>
+                            <div class="mapContentInfoOtherFaxContent">+7 812 314 45 69</div>
+                        </div>
+                        <div class="mapContentInfoOtherMail">
+                            <div class="mapContentInfoOtherMailTittle">E-mail:</div>
+                            <div class="mapContentInfoOtherMailContent"><a href="mailto:click@patentica.com">click@patentica.com</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="mapContentZayavka">
+                    <div class="mapContentZayavkaTittle">Оставить заявку на бесплатную консультацию</div>
+                    <div class="sendNumberMap">
+                        <input class="numberWriteMap" id="phone5" placeholder="Введите свой телефон" type="text"
+                               size="40">
+                        <button class="sendButMap">
+                            <a class="btn trigger">Оставить заявку</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="mapContentFooter">
+                    <div class="div">*</div>
+                    <div class="checkText">Нажимая кнопку «Отправить», вы даете согласие на обработку своих персональных
+                        данных,
+                        в соответствии <a class="triggerPol" href="#">с Политикой конфиденциальности сайта</a></div>
+                </div>
+            </div>
+            <div id="map" style="width: 100%; height: 850px"></div>
+            <div class="mapContentZayavkas">
+                <div class="mapContentZayavkasTittle">Оставить заявку на бесплатную консультацию</div>
+                <div class="sendNumberMaps">
+                    <input class="numberWriteMap" placeholder="Введите свой телефон" id="phone4" type="text" size="40">
+                    <button class="sendButMaps">
+                        <a class="btn trigger">Оставить заявку</a>
+                    </button>
+                </div>
+            </div>
+            <div class="mapContentFooters">
+                <div class="div">*</div>
+                <div class="checkText">Нажимая кнопку «Отправить», вы даете согласие на обработку своих персональных
+                    данных,
+                    в соответствии <a class="triggerPol" href="#">с Политикой конфиденциальности сайта</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerInfo">
+            © <script>
+            document.write(new Date().getFullYear()+ " ");
+        </script> ClickPatent – регистрация товарных знаков под ключ.
+        </div>
+        <div class="footerLogo">
+            <div class="footerText">
+                Create with mojo in
+            </div>
+            <a href="https://whtrbbt.com/" target="_blank">
+                <div class="footerIcon">
+
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+
+    $(document).ready(function () {
+        let time1 = $('#dangerRegAnim');
+        let winHp1 = $(window).height() / 150;
+        let maxHp1 = 10 / ($(document).height() - $(window).height() + time1.height() * 1.5);
+        $(window).on('scroll', function () {
+            let cScroll1 = $(this).scrollTop();
+            let p1 = cScroll1 * maxHp1;
+            let y1 = winHp1 * p1 + cScroll1;
+            let x1 = (Math.sin(p1 * 0.1) / 2) * 60;
+            if ((y1 > 5000 && x1 > 9.8) || (y1 < 4700 && x1 < 9.8 )) {
+                return;
+            }
+            console.log(`y1 = ${y1} x1 = ${x1}`);
+            time1.offset({top: y1, right: x1});
+        });
+    });
+</script>
+<script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction1() {
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction2() {
+        var popup1 = document.getElementById("myPopup2");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4");
+        popup1.classList.remove("show");
+
+    }
+
+    function myFunction3() {
+        var popup1 = document.getElementById("myPopup3");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction4() {
+        var popup1 = document.getElementById("myPopup4");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup");
+        popup1.classList.remove("show");
+    }
+
+
+    function myFunction5() {
+        var popup = document.getElementById("myPopupMobile");
+        popup.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4Mobile");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction6() {
+        var popup1 = document.getElementById("myPopup1Mobile");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopupMobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4Mobile");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction7() {
+        var popup1 = document.getElementById("myPopup2Mobile");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopupMobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4Mobile");
+        popup1.classList.remove("show");
+
+    }
+
+    function myFunction8() {
+        var popup1 = document.getElementById("myPopup3Mobile");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopupMobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup4Mobile");
+        popup1.classList.remove("show");
+    }
+
+    function myFunction9() {
+        var popup1 = document.getElementById("myPopup4Mobile");
+        popup1.classList.toggle("show");
+        var popup1 = document.getElementById("myPopup1Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup2Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopup3Mobile");
+        popup1.classList.remove("show");
+        var popup1 = document.getElementById("myPopupMobile");
+        popup1.classList.remove("show");
+    }
+
+</script>
+<script src="lib/noframework.waypoints.min.js"></script>
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+<script src="jquery.maskedinput.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

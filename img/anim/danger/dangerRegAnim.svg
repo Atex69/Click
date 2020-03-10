@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238.854" height="522.348" viewBox="0 0 238.854 522.348">
+  <g id="Group_134" data-name="Group 134" transform="translate(-476.848 -312.781)">
+    <g id="куб_1" data-name="куб 1" transform="translate(524.021 410.964)" opacity="0.84">
+      <path id="Path_239" data-name="Path 239" d="M73.233,133.122,0,103.943V17.34L73.233,46.5Z" transform="translate(0 11.639)" fill="#e0e622"/>
+      <path id="Path_240" data-name="Path 240" d="M43.82,133.122l73.25-29.18V17.34L43.82,46.5Z" transform="translate(29.413 11.639)" fill="#cacb2c"/>
+      <path id="Path_241" data-name="Path 241" d="M146.483,28.979,73.233,57.958,0,28.979,73.233,0Z" fill="#f3eb4e"/>
+    </g>
+    <g id="куб_1-2" data-name="куб 1" transform="translate(504.062 495.867)" opacity="0.84">
+      <path id="Path_239-2" data-name="Path 239" d="M92.694,163.891,0,126.957V17.34L92.694,54.253Z" transform="translate(0 19.34)" fill="#e0e622"/>
+      <path id="Path_240-2" data-name="Path 240" d="M43.82,163.891l92.715-36.934V17.34L43.82,54.253Z" transform="translate(48.874 19.34)" fill="#cacb2c"/>
+      <path id="Path_241-2" data-name="Path 241" d="M185.409,36.68,92.694,73.36,0,36.68,92.694,0Z" fill="#f3eb4e"/>
+    </g>
+    <g id="куб_1-3" data-name="куб 1" transform="translate(476.848 599.082)" opacity="0.84">
+      <path id="Path_239-3" data-name="Path 239" d="M119.413,206.134,0,158.554V17.34L119.413,64.893Z" transform="translate(0 29.913)" fill="#e0e622"/>
+      <path id="Path_240-3" data-name="Path 240" d="M43.82,206.134l119.44-47.58V17.34L43.82,64.893Z" transform="translate(75.593 29.913)" fill="#cacb2c"/>
+      <path id="Path_241-3" data-name="Path 241" d="M238.854,47.253,119.413,94.506,0,47.253,119.413,0Z" fill="#f3eb4e"/>
+    </g>
+    <g id="куб_1-4" data-name="куб 1" transform="translate(547.02 358.07)" opacity="0.84">
+      <path id="Path_239-4" data-name="Path 239" d="M48.9,94.647,0,75.164V17.34L48.9,36.812Z" transform="translate(0 2.009)" fill="#e0e622"/>
+      <path id="Path_240-4" data-name="Path 240" d="M43.82,94.647,92.728,75.164V17.34L43.82,36.812Z" transform="translate(5.077 2.009)" fill="#cacb2c"/>
+      <path id="Path_241-4" data-name="Path 241" d="M97.8,19.349,48.9,38.7,0,19.349,48.9,0Z" fill="#f3eb4e"/>
+    </g>
+    <g id="куб_1-5" data-name="куб 1" transform="translate(559.02 312.781)" opacity="0.84">
+      <path id="Path_239-5" data-name="Path 239" d="M36.9,75.682,0,60.979V17.34l36.9,14.7Z" transform="translate(0 -2.738)" fill="#e0e622"/>
+      <path id="Path_240-5" data-name="Path 240" d="M43.82,75.682l36.91-14.7V17.34l-36.91,14.7Z" transform="translate(-6.918 -2.738)" fill="#cacb2c"/>
+      <path id="Path_241-5" data-name="Path 241" d="M73.812,14.6,36.9,29.2,0,14.6,36.9,0Z" fill="#f3eb4e"/>
+    </g>
+  </g>
+</svg>

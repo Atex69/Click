@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="372.498" height="661.39" viewBox="0 0 372.498 661.39">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e0e622" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e0e622" stop-opacity="0.365"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_138" data-name="Group 138" transform="translate(-409.674 -219.149)">
+    <path id="Path_301" data-name="Path 301" d="M-16515,8582.937v79.082l28.518,10.918,27.813-10.918v-79.082Z" transform="translate(17081.084 -8335.938)" fill="url(#linear-gradient)"/>
+    <path id="Path_302" data-name="Path 302" d="M-16546.613,8653.327l22.357,29.3,28.516,10.916,27.814-10.916,18.463-29.3Z" transform="translate(17090.342 -8356.549)" fill="url(#linear-gradient)"/>
+    <text id="_" data-name="®" transform="translate(579 312)" fill="#0070d0" font-size="48" font-family="FuturaPT-Book, Futura PT"><tspan x="0" y="0">®</tspan></text>
+    <path id="Path_303" data-name="Path 303" d="M-17378.18,9812l-34.578,546.06,185.455,86.693v-660Z" transform="translate(17822.953 -9565)" fill="none" stroke="#0070d0" stroke-width="1" stroke-dasharray="2 2"/>
+    <path id="Path_304" data-name="Path 304" d="M-17261.883,9812l34.578,546.06-185.455,86.693v-660Z" transform="translate(18008.955 -9565)" fill="none" stroke="#0070d0" stroke-width="1" stroke-dasharray="2 2"/>
+    <path id="Path_306" data-name="Path 306" d="M-17038.482,9812.783l-150.621,25.1s-113.162-19.5-151.01-25.1" transform="translate(17785 -9565)" fill="none" stroke="rgba(0,112,208,0.38)" stroke-width="1" stroke-dasharray="2 2"/>
+  </g>
+</svg>

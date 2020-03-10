@@ -1,0 +1,77 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .workClickContentFlex{
+        zoom: 70%;
+    }
+
+
+    .cubFormLeft {
+        background: url(img/cubFormLeft.png) 100% no-repeat;
+
+        float: left;
+        width: 27%;
+        height: 53%;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1900px) {
+    .fastClick{
+        zoom: 90%;
+    }
+
+
+}
+
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+    .completDocsContentRight{
+        left:8%
+    }
+
+    .timeRegContentRight{
+        left: 24%;
+    }
+
+    .reg-tittle-anim{
+        left: 28%;
+    }
+
+    .wrap-logo {
+        min-width: 189px;
+    }
+
+    .reg-tittle,.header{
+        zoom: 87%;
+    }
+
+    .pricerContentTittleDesc{
+        margin-left: 6%;
+        white-space: nowrap;
+    }
+    .pricerContentTittle{
+        margin-right: 13.6%;
+    }
+
+    .pricerContentCardDesc ul{
+        height: 320px;
+    }
+
+    .priceContentDown{
+        margin-right: 53%;
+    }
+
+    .socContentRightIcon{
+        margin-top: 55px;
+        margin-bottom: 40px;
+        margin-left: 34px;
+        padding-right: 15px;
+    }
+}
+
+
+@media (min-width: 1050px) and (max-width: 1330px) {
+    .wrap-logo{
+        min-width: 188px!important;
+    }
+
+}
