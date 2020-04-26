@@ -4545,7 +4545,305 @@ opacity: 0;
     color:#355067;
     font-weight: 300;
 }
+.wrap-logo{
+    overflow: hidden;
+    position: relative;
+}
+.menu-container-right-container-lang a{
+    text-decoration: underline;
+}
+.menu-container-right-container-lang a.is-active{
+    color: #E0E622;
+    text-decoration: none;
+}
+html, body{
+    overflow-x: hidden;
+}
+span.helper {
+    display: block;
+    position: absolute;
+    color: #fff;
+}
+.zayavkaContentGrid .helper,
+.form_modal_window span.helper {
+    display: block;
+    position: relative;
+}
+.sendNumberMap .helper{
+    color: #000;
+    margin-top: 65px;
+}
+.js-form-helper .success{
+    color: #fff;
+}
+.mapContentZayavka .js-form-helper .success{
+    color: #000;
+}
+input.error {
+    border: 1px solid red;
+}
+.pricerContentCardTittle{
+    height: 33px !important;
+}
+.priceContentDownText a{
+    color: #355067;
+    border-bottom: 1px solid #355067;
+}
+.priceContentDownText a:hover{
+    color: #0070D0;
+    border-bottom: 1px solid #0070D0;
+}
+.pricerContentCardDesc ul{
+    height: 230px !important
+}
+.indRegContentImg{
+    padding-bottom: 12px;
+}
+.priceContentDownText::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('/wp-content/themes/clickpatent/images/folder.svg') no-repeat 0 0;
+    background-size: contain;
+    width: 48px;
+    height: 43px;
+    top: 34px;
+    left: 41px;
+}
+.priceContentDownText {
+    position: relative;
+    border: 1px dashed #0070D0;
+    border-radius: 16px;
+    padding: 34px 115px 25px 115px;
+    width: 64%;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #355067;
+    font-weight: 300;
+    min-height: 50px;
+}
+@media screen and (max-width: 799px){
+    .fastClick.main-grid{
+        overflow: hidden;
+        width: 100%;
+    }
+    .fastClickTittle{
+        padding: 41px 0 50px 0 !important;
+        width: 100% !important;
+    }
+    .fastClickContent > div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .fastClickContent {
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .set > a i {
+        float: right;
+        margin-top: -10px;
+        font-size: 20px !important;
+        color: #0070D0;
+        position: absolute;
+        right: 26px;
+        top: 32px;
+    }
+    .set {
+        background: #ffff;
+        padding: 30px 24px;
+        border-radius: 20px;
+        margin-top: 40px;
+        width: calc(100% - 70px) !important;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+}
+@media screen and (max-width: 619px){
+    .singleResult{
+        display: block !important
+    }
+    .singleResult .img{
+        margin: 0 auto !important;
+    }
+    .singleResult .textResult {
+        width: 100% !important;
+        margin: 32px auto 0 auto !important;
+    }
+    .priceContentDownText{
+        padding: 79px 18px 25px 18px;
+        width: 100%;
+    }
+    .priceContentDownText::before{
+        top: 19px;
+        left: 19px;
+    }
+}
+@media screen and (max-width: 441px){
+    .priceContentDownText{
+        width: 75%;
+    }
+    .numberWrite {
+        width: 60% !important;
+    }
+    .guardBrendContentGrid {
+        grid-area: unset !important;
+        display: block !important;
 
+    }
+    .guardBrendContentLeft {
+        grid-area: unset !important;
+        width: calc(100% - 39px) !important;
+        display: block !important;
+    }
+    .guardBrendContentLeftTittle,
+    .guardBrendContent1,
+    .guardBrendContent2,
+    .guardBrendContent3,
+    .guardBrendContent4,
+    .guardBrendContent5,
+    .guardBrendContent6{
+        grid-area: unset !important;
+    }
+    .guardBrendContent{
+        display: block !important;
+        grid-template-columns: unset !important;
+        grid-template-rows: unset !important;
+    }
+    .sendButMobile{
+        width: 63px !important;
+    }
+    .dangerRegContentRightFoot{
+        margin-left: 10px !important;
+    }
+    .sendNumberFirst{
+        width: 69% !important;
+    }
+    .sendButMobile{
+        margin-left: 0 !important
+    }
+    .checkButton{
+        width: 69% !important;
+    }
+    .checkDesc{
+        width: 70% !important;
+    }
+    .startPageFooterContentGrid{
+        width: calc(100% - 40px) !important;
+        padding-right: 20px !important;
+    }
+    .startPageFooterContentRight{
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 20px 0 !important;
+    }
+    .guardBrendContentLeft{
+        width: calc(100% - 40px) !important;
+        margin: 0 20px !important;
+    }
+    .peopleImg{
+        background-size: contain !important;
+    }
+    .guardBrendContentRight{
+        background: unset !important;
+    }
+    .wrap-logo {
+        width: 133px !important;
+        min-width: unset !important;
+        background-size: contain !important;
+    }
+    .mobile-menu{
+        top: 24px !important;
+    }
+    .menu-container-right-container-lang a{
+        font-size: 12px !important;
+    }
+    .menu-container-right-container-lang {
+        width: 91% !important;
+    }
+    .menu-header-contentRight{
+        margin-left: 57% !important;
+        margin-top: -35px !important;
+    }
+    .guardBrendContentRight{
+        margin-left: -76px !important;
+    }
+    .checkPatentContentRight{
+        width: calc(100% - 30px) !important;
+    }
+    .checkPatentClassImg{
+        background-position: 0 !important;
+        background-size: contain !important;
+    }
+    .checkPatentContentRightMK, .checkPatentContentRightClassMK{
+        text-align: left !important;
+    }
+    .indRegContentTittleDesc,
+    .indRegContentTittle {
+        width: 100% !important;
+    }
+    .indRegContentGrid{
+        display: block !important;
+    }
+    .indButton,
+    .indRegContentDown,
+    .indRegContents{
+        width: 100% !important
+    }
+    #indText5,
+    .indRegContentText {
+        margin-left: 0 !important;
+    }
+    #indText5 {
+        margin-left: 15px!important;
+        left: -14px;
+        position: relative;
+    }
+    #indText6{
+        margin-left: 11px !important;
+    }
+    .indRegContentImg{
+        margin-top: 7px;
+    }
+    .teamClickContentLeft{
+        height: 184px !important;
+        background-size: contain !important;
+    }
+    .set > a{
+        display: block !important;
+        width: 94% !important;
+    }
+    .numberZayavka {
+        width: 84% !important;
+    }
+    .socContentLeftDesc ul{
+        width: 87% !important;
+    }
+    .menu-header-button{
+        margin-left: 0 !important;
+    }
+    .modal{
+        width: 93%!important;
+        margin: 30% 0 0 1%!important;
+        left: 0%!important;
+        top: 0 !important;
+    }
+    #tmSearchQuery{
+        width: 87% !important;
+    }
+    .mapContentZayavkasTittle{
+        margin-left: 15px!important;
+        padding: 10px 0px 10px 0!important;
+    }
+    .sendNumberMaps{
+        padding: 0 !important;
+    }
+    .mapContentZayavkas{
+        margin-right: 0 !important
+    }
+}
 
 
 
