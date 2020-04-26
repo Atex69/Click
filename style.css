@@ -4582,9 +4582,7 @@ span.helper {
 input.error {
     border: 1px solid red;
 }
-.pricerContentCardTittle{
-    height: 33px !important;
-}
+
 .priceContentDownText a{
     color: #355067;
     border-bottom: 1px solid #355067;
